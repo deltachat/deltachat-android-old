@@ -66,9 +66,9 @@ public class MrMailbox {
     public native static void interruptSmtpIdle();
 
     public native static void setConfig(String key, String value);
-    public native static void setConfigInt(String key, int value);
+    public void setConfigInt(String key, int value) { setConfig(key, Integer.toString(value)); }
     public native static String getConfig(String key, String def);
-    public native static int getConfigInt(String key, int def);
+    public int getConfigInt(String key, int def) { return Integer.parseInt(getConfig(key, Integer.toString(def))); }
 
     public native static String getInfo();
     public native static String cmdline(String cmd);
