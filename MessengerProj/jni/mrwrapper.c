@@ -934,7 +934,7 @@ JNIEXPORT jlong Java_com_b44t_messenger_MrMsg_getTimestamp(JNIEnv *env, jobject 
 
 JNIEXPORT jint Java_com_b44t_messenger_MrMsg_getType(JNIEnv *env, jobject obj)
 {
-	return dc_msg_get_type(get_dc_msg(env, obj));
+	return dc_msg_get_viewtype(get_dc_msg(env, obj));
 }
 
 
