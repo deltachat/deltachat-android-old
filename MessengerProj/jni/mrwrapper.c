@@ -569,15 +569,13 @@ JNIEXPORT void Java_com_b44t_messenger_MrMailbox_setConfig(JNIEnv *env, jclass c
 JNIEXPORT jstring Java_com_b44t_messenger_MrMailbox_getConfig(JNIEnv *env, jclass cls, jstring key, jstring def/*may be NULL*/)
 {
 	CHAR_REF(key);
-	CHAR_REF(def);
-		char* temp = dc_get_config(get_dc_context(env, cls), keyPtr, defPtr /*is NULL if value is NULL, CHAR_REF() handles this*/);
+		char* temp = dc_get_config(get_dc_context(env, cls), keyPtr);
 			jstring ret = NULL;
 			if( temp ) {
 				ret = JSTRING_NEW(temp);
 			}
 		free(temp);
 	CHAR_UNREF(key);
-	CHAR_UNREF(def);
 	return ret; /* returns NULL only if key is unset and "def" is NULL */
 }
 
