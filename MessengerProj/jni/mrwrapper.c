@@ -205,6 +205,7 @@ static uintptr_t s_context_callback_(dc_context_t* context, int event, uintptr_t
 JNIEXPORT jlong Java_com_b44t_messenger_MrMailbox_MrMailboxNew(JNIEnv *env, jclass c)
 {
 	s_init_globals(env, c);
+	dc_no_compound_msgs();
 	return (jlong)dc_context_new(s_context_callback_, NULL, "Android");
 }
 
