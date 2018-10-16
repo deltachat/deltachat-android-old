@@ -527,9 +527,157 @@ JNIEXPORT jint Java_com_b44t_messenger_MrMailbox_sendTextMsg(JNIEnv *env, jclass
 }
 
 
+static uint32_t send_image_msg(dc_context_t* context, uint32_t chat_id, const char* file, const char* filemime, int width, int height)
+{
+	dc_msg_t* msg = dc_msg_new(context, DC_MSG_IMAGE);
+	uint32_t  ret = 0;
+
+	if (context==NULL || chat_id<=DC_CHAT_ID_LAST_SPECIAL || file==NULL) {
+		goto cleanup;
+	}
+
+	dc_msg_set_file(msg, file, NULL);
+	if (width>0 && height>0) {
+		dc_msg_set_dimension(msg, width, height);
+	}
+
+	ret = dc_send_msg(context, chat_id, msg);
+
+cleanup:
+	dc_msg_unref(msg);
+	return ret;
+
+}
+
+
+static uint32_t send_video_msg(dc_context_t* context, uint32_t chat_id, const char* file, const char* filemime, int width, int height, int duration)
+{
+	dc_msg_t* msg = dc_msg_new(context, DC_MSG_VIDEO);
+	uint32_t  ret = 0;
+
+	if (context==NULL || chat_id<=DC_CHAT_ID_LAST_SPECIAL || file==NULL) {
+		goto cleanup;
+	}
+
+	dc_msg_set_file(msg, file, filemime);
+	if (width>0 && height>0) {
+		dc_msg_set_dimension(msg, width, height);
+	}
+	if (duration>0) {
+		dc_msg_set_duration(msg, duration);
+	}
+
+	ret = dc_send_msg(context, chat_id, msg);
+
+cleanup:
+	dc_msg_unref(msg);
+	return ret;
+
+}
+
+
+static uint32_t send_voice_msg(dc_context_t* context, uint32_t chat_id, const char* file, const char* filemime, int duration)
+{
+	dc_msg_t* msg = dc_msg_new(context, DC_MSG_VOICE);
+	uint32_t  ret = 0;
+
+	if (context==NULL || chat_id<=DC_CHAT_ID_LAST_SPECIAL || file==NULL) {
+		goto cleanup;
+	}
+
+	dc_msg_set_file(msg, file, filemime);
+	if (duration>0) {
+		dc_msg_set_duration(msg, duration);
+	}
+
+	ret = dc_send_msg(context, chat_id, msg);
+
+cleanup:
+	dc_msg_unref(msg);
+	return ret;
+}
+
+
+static uint32_t send_audio_msg(dc_context_t* context, uint32_t chat_id, const char* file, const char* filemime, int duration, const char* author, const char* trackname)
+{
+	dc_msg_t* msg = dc_msg_new(context, DC_MSG_AUDIO);
+	uint32_t ret = 0;
+
+	if (context==NULL || chat_id<=DC_CHAT_ID_LAST_SPECIAL || file==NULL) {
+		goto cleanup;
+	}
+
+	dc_msg_set_file(msg, file, filemime);
+	dc_msg_set_duration(msg, duration);
+	dc_msg_set_mediainfo(msg, author, trackname);
+
+	ret = dc_send_msg(context, chat_id, msg);
+
+cleanup:
+	dc_msg_unref(msg);
+	return ret;
+}
+
+
+static uint32_t send_file_msg(dc_context_t* context, uint32_t chat_id, const char* file, const char* filemime)
+{
+	dc_msg_t* msg = dc_msg_new(context, DC_MSG_FILE);
+	uint32_t  ret = 0;
+
+	if (context==NULL || chat_id<=DC_CHAT_ID_LAST_SPECIAL || file==NULL) {
+		goto cleanup;
+	}
+
+	dc_msg_set_file(msg, file, filemime);
+
+	ret = dc_send_msg(context, chat_id, msg);
+
+cleanup:
+	dc_msg_unref(msg);
+	return ret;
+}
+
+
+static uint32_t send_vcard_msg(dc_context_t* context, uint32_t chat_id, uint32_t contact_id)
+{
+	uint32_t      ret = 0;
+	dc_contact_t* contact = NULL;
+	char*         name = NULL;
+	char*         addr = NULL;
+	char*         text_to_send = NULL;
+
+	if (context==NULL || chat_id<=DC_CHAT_ID_LAST_SPECIAL) {
+		goto cleanup;
+	}
+
+	if ((contact=dc_get_contact(context, contact_id))==NULL) {
+		goto cleanup;
+	}
+
+	name = dc_contact_get_name(contact);
+	addr = dc_contact_get_addr(contact);
+
+	if (name[0]) {
+		text_to_send = dc_mprintf("%s: %s", name, addr);
+	}
+	else {
+		text_to_send = dc_strdup(addr);
+	}
+
+	ret = dc_send_text_msg(context, chat_id, text_to_send);
+
+cleanup:
+	dc_contact_unref(contact);
+	free(text_to_send);
+	free(name);
+	free(addr);
+	return ret;
+}
+
+
 JNIEXPORT jint Java_com_b44t_messenger_MrMailbox_sendVcardMsg(JNIEnv *env, jobject obj, jint chat_id, jint contact_id)
 {
-	return dc_send_vcard_msg(get_dc_context(env, obj), chat_id, contact_id);
+	return send_vcard_msg(get_dc_context(env, obj), chat_id, contact_id);
 }
 
 
@@ -541,11 +689,11 @@ JNIEXPORT jint Java_com_b44t_messenger_MrMailbox_sendMediaMsg(JNIEnv *env, jclas
 	CHAR_REF(author);
 	CHAR_REF(trackname);
 	switch( type ) {
-		case DC_MSG_IMAGE: msg_id = (jint)dc_send_image_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, w, h); break;
-		case DC_MSG_VIDEO: msg_id = (jint)dc_send_video_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, w, h, ms); break;
-		case DC_MSG_VOICE: msg_id = (jint)dc_send_voice_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, ms); break;
-		case DC_MSG_AUDIO: msg_id = (jint)dc_send_audio_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, ms, authorPtr, tracknamePtr); break;
-		default:           msg_id = (jint)dc_send_file_msg (get_dc_context(env, cls), chat_id, filePtr, mimePtr); break;
+		case DC_MSG_IMAGE: msg_id = (jint)send_image_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, w, h); break;
+		case DC_MSG_VIDEO: msg_id = (jint)send_video_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, w, h, ms); break;
+		case DC_MSG_VOICE: msg_id = (jint)send_voice_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, ms); break;
+		case DC_MSG_AUDIO: msg_id = (jint)send_audio_msg(get_dc_context(env, cls), chat_id, filePtr, mimePtr, ms, authorPtr, tracknamePtr); break;
+		default:           msg_id = (jint)send_file_msg (get_dc_context(env, cls), chat_id, filePtr, mimePtr); break;
 	}
 	CHAR_UNREF(trackname);
 	CHAR_UNREF(author);

@@ -1666,7 +1666,6 @@ LOCAL_SRC_FILES     += \
 ./messenger-backend/src/dc_strencode.c \
 ./messenger-backend/src/dc_token.c \
 ./messenger-backend/src/dc_tools.c \
-./messenger-backend/src/dc_uudecode.c \
 ./messenger-backend/cmdline/cmdline.c \
 ./mrwrapper.c
 
