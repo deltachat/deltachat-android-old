@@ -85,8 +85,6 @@ public class MrMsg {
     private native long  getSummaryCPtr(long hChat);
     public native String getSummarytext(int approx_characters);
     public native int    showPadlock();
-    public MrLot getMediainfo() { return new MrLot(getMediainfoCPtr()); }
-    private native long  getMediainfoCPtr();
     public native String getFile();
     public native String getFilemime();
     public native String getFilename();

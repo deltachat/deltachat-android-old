@@ -609,7 +609,6 @@ static uint32_t send_audio_msg(dc_context_t* context, uint32_t chat_id, const ch
 
 	dc_msg_set_file(msg, file, filemime);
 	dc_msg_set_duration(msg, duration);
-	dc_msg_set_mediainfo(msg, author, trackname);
 
 	ret = dc_send_msg(context, chat_id, msg);
 
@@ -1180,12 +1179,6 @@ JNIEXPORT jstring Java_com_b44t_messenger_MrMsg_getFilename(JNIEnv *env, jobject
 		jstring ret =  JSTRING_NEW(temp);
 	free(temp);
 	return ret;
-}
-
-
-JNIEXPORT jlong Java_com_b44t_messenger_MrMsg_getMediainfoCPtr(JNIEnv *env, jobject obj)
-{
-	return (jlong)dc_msg_get_mediainfo(get_dc_msg(env, obj));
 }
 
 

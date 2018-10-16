@@ -110,9 +110,9 @@ public class MusicPlayerService extends Service implements NotificationCenter.No
     {
         AudioInfo audioInfo = MediaController.getInstance().getAudioInfo();
 
-        MrLot pt = MrMailbox.getMsg(messageObject.getId()).getMediainfo();
-        String authorName = pt.getText1();
-        String songName = pt.getText2();
+        String filename = MrMailbox.getMsg(messageObject.getId()).getFilename();
+        String authorName = filename;
+        String songName = filename;
         if( songName == null || songName.length()==0 ) {
             TLRPC.Document document = messageObject.messageOwner.media.document;
             for (int i = 0; i < document.attributes.size(); i++) {
