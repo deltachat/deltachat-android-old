@@ -235,7 +235,6 @@ public class MrMailbox {
 
     public final static int MR_EVENT_IS_OFFLINE               = 2081;
     public final static int MR_EVENT_GET_STRING               = 2091;
-    public final static int MR_EVENT_GET_QUANTITIY_STRING     = 2092;
     public final static int MR_EVENT_HTTP_GET                 = 2100;
 
     public static final Object m_lastErrorLock = new Object();
@@ -387,6 +386,8 @@ public class MrMailbox {
                     case  1: s = ApplicationLoader.applicationContext.getString(R.string.NoMessages); break;
                     case  2: s = ApplicationLoader.applicationContext.getString(R.string.FromSelf); break;
                     case  3: s = ApplicationLoader.applicationContext.getString(R.string.Draft); break;
+                    case  4: s = ApplicationLoader.applicationContext.getResources().getQuantityString(R.plurals.Members, (int)data2, (int)data2); break;
+                    case  6: s = ApplicationLoader.applicationContext.getResources().getQuantityString(R.plurals.Contacts, (int)data2, (int)data2); break;
                     case  7: s = ApplicationLoader.applicationContext.getString(R.string.AttachVoiceMessage); break;
                     case  8: s = ApplicationLoader.applicationContext.getString(R.string.Deaddrop); break;
                     case  9: s = ApplicationLoader.applicationContext.getString(R.string.AttachPhoto); break;
@@ -423,15 +424,6 @@ public class MrMailbox {
                     default: s = null; break;
                 }
                 return String2CPtr(s);
-
-            case MR_EVENT_GET_QUANTITIY_STRING:
-                String sp = "ErrQtyStrBadId";
-                switch( (int)data1 ) {
-                    // the string-IDs are defined in the backend; as this is the only place where they're used, there is no benefit in creating an enum or sth. like that.
-                    case 4: sp = ApplicationLoader.applicationContext.getResources().getQuantityString(R.plurals.Members, (int)data2, (int)data2); break;
-                    case 6: sp = ApplicationLoader.applicationContext.getResources().getQuantityString(R.plurals.Contacts, (int)data2, (int)data2); break;
-                }
-                return String2CPtr(sp);
 
             case MR_EVENT_IS_OFFLINE:
                 return ApplicationLoader.isNetworkOnline()? 0 : 1;
