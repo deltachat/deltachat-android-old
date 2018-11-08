@@ -4,8 +4,7 @@ The following checklists are there not to forget things ... to be continued.
 
 # Release new Core version
 
-1. deltachat-core: bump version, commit, push
-2. deltachat-core on Github: "Draft a new release" with the version form `v1.2.3`
+see deltachat-core/docs/release-checklist.md
 
 
 # Release new F-Droid version
