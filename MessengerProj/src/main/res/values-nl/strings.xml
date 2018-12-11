@@ -8,16 +8,16 @@
     <string name="Settings">Instellingen</string>
     <string name="NewGroup">Nieuwe groep</string>
     <string name="NoResult">Geen resultaten.</string>
-    <string name="NoChats">Nog geen chats.</string>
-    <string name="DeleteChat">Chat verwijderen</string>
-    <string name="SelectChat">Kies een chat …</string>
+    <string name="NoChats">Nog geen gesprekken.</string>
+    <string name="DeleteChat">Gesprek verwijderen</string>
+    <string name="SelectChat">Kies een gesprek ...</string>
     <string name="Search">Zoeken</string>
     <string name="MuteNotifications">Meldingen dempen</string>
     <string name="MuteFor">Dempen voor %1$s</string>
-    <string name="UnmuteNotifications">Dempen uitschakelen</string>
+    <string name="UnmuteNotifications">Ontdempen</string>
     <string name="Draft">Concept</string>
     <!--audio view-->
-    <string name="NoAudio">Voeg bestanden toe aan de muziekbibliotheek op je apparaat om ze hier te zien.</string>
+    <string name="NoAudio">Bestanden uit je muziekbibliotheek.</string>
     <string name="AttachMusic">Muziek</string>
     <!--documents view-->
     <string name="SelectFile">Kies een bestand</string>
@@ -25,7 +25,7 @@
     <string name="ErrorHint">Onbekende fout</string>
     <string name="AccessError">Toegangsfout</string>
     <string name="NoFiles">Nog geen bestanden...</string>
-    <string name="NotMounted">Geen opslagmedium gevonden</string>
+    <string name="NotMounted">Geen opslagmedium aangetroffen</string>
     <string name="UsbActive">USB-overdracht actief</string>
     <string name="InternalStorage">Interne opslag</string>
     <string name="ExternalStorage">Externe opslag</string>
@@ -54,23 +54,23 @@
     <string name="ReplyToGroup">Antwoord op %1$s</string>
     <string name="ReplyToContact">Antwoord op %1$s</string>
     <!--contacts view-->
-    <string name="NoContacts">Nog geen contacten.</string>
+    <string name="NoContacts">Nog geen contactpersonen.</string>
     <!--group create view-->
-    <string name="SendMessageTo">Bericht versturen naar ...</string>
+    <string name="SendMessageTo">Bericht versturen naar...</string>
     <string name="EnterGroupNamePlaceholder">Voer een groepsnaam in</string>
     <!--group info view-->
-    <string name="AddMember">Lid toevoegen</string>
+    <string name="AddMember">Deelnemer toevoegen</string>
     <string name="Notifications">Meldingen</string>
-    <string name="RemoveMember">Lid verwijderen</string>
+    <string name="RemoveMember">Deelnemer verwijderen</string>
     <!--contact info view-->
-    <string name="NewContactTitle">Contact toevoegen</string>
-    <string name="BlockContact">Contact blokkeren</string>
-    <string name="DeleteContact">Contact verwijderen</string>
+    <string name="NewContactTitle">Contactpersoon toevoegen</string>
+    <string name="BlockContact">Contactpersoon blokkeren</string>
+    <string name="DeleteContact">Contactpersoon verwijderen</string>
     <string name="Info">Informatie</string>
     <!--settings view-->
     <string name="TextSize">Tekstgrootte van berichten</string>
-    <string name="UnblockContact">Contact deblokkeren</string>
-    <string name="NoBlocked">Er zijn nog geen geblokkeerde contacten</string>
+    <string name="UnblockContact">Contactpersoon deblokkeren</string>
+    <string name="NoBlocked">Nog geen geblokkeerde contactpersonen</string>
     <string name="DefaultForNormalMessages">Normale berichten</string>
     <string name="MessagePreview">Voorvertoning</string>
     <string name="DefaultForGroupMessages">Groepsberichten</string>
@@ -79,58 +79,58 @@
     <string name="Vibrate">Trillen</string>
     <string name="ResetAllNotifications">Standaardwaarden</string>
     <string name="NotificationsAndSounds">Meldingen en geluiden</string>
-    <string name="BlockedContacts">Geblokkeerde contacten</string>
+    <string name="BlockedContacts">Geblokkeerde contactpersonen</string>
     <string name="Default">Standaard</string>
     <string name="OnlyIfSilent">Alleen indien stil</string>
-    <string name="ChatBackground">Chatachtergrond</string>
+    <string name="ChatBackground">Gespreksachtergrond</string>
     <string name="SendByEnter">Versturen met \"Enter\"</string>
     <string name="Help">Hulp</string>
-    <string name="Enabled">Inschakelen</string>
-    <string name="Disabled">Uitgeschakeld</string>
+    <string name="Enabled">Aan</string>
+    <string name="Disabled">Uit</string>
     <string name="LedColor">LED-kleur</string>
     <string name="BadgeNumber">Badgenummer gebruiken (indien mogelijk)</string>
     <string name="Short">Kort</string>
     <string name="Long">Lang</string>
-    <string name="RaiseToSpeak">Houd bij oor</string>
+    <string name="RaiseToSpeak">Til op om te praten</string>
     <string name="EditName">Naam wijzigen</string>
-    <string name="NotificationsPriority">Weergeven</string>
-    <string name="NotificationsPriorityDefault">Standaard</string>
-    <string name="NotificationsPriorityHigh">Hoog</string>
-    <string name="NotificationsPriorityMax">Hoogste</string>
+    <string name="NotificationsPriority">Tonen</string>
+    <string name="NotificationsPriorityDefault">Standaardprioriteit</string>
+    <string name="NotificationsPriorityHigh">Hoge prioriteit</string>
+    <string name="NotificationsPriorityMax">Hoogste prioriteit</string>
     <string name="RepeatNotifications">Meldingen herhalen</string>
     <string name="NotificationsOther">Overig</string>
-    <string name="InChatSound">Chatgeluiden</string>
+    <string name="InChatSound">Gespreksgeluiden</string>
     <string name="SmartNotifications">Aantal meldingen beperken</string>
     <string name="SmartNotificationsSoundAtMost">Max.</string>
     <string name="SmartNotificationsTimes">keer</string>
     <string name="SmartNotificationsWithin">binnen</string>
     <string name="SmartNotificationsMinutes">minuten</string>
     <string name="DirectShare">Snel delen</string>
-    <string name="DirectShareInfo">Recente chats weergeven in snel delen-menu</string>
+    <string name="DirectShareInfo">Recente gesprekken tonen in snel delen-menu</string>
     <!--cache view-->
     <string name="CacheSettings">Opslag</string>
     <string name="KeepMedia">Media bewaren</string>
-    <string name="KeepMediaInfo">Foto\'s, video\'s en andere bestanden uit cloudchats die je gedurende deze periode niet hebt  <![CDATA[<b>geopend</b>]]> zullen worden verwijderd van dit apparaat om ruimte te besparen.</string>
+    <string name="KeepMediaInfo">Foto\'s, video\'s en andere bestanden uit cloudgesprekken die je gedurende deze periode niet hebt  <![CDATA[<b>geopend</b>]]> zullen worden verwijderd om ruimte te besparen.</string>
     <string name="KeepMediaForever">Voor altijd</string>
     <!--passcode view-->
     <string name="Passcode">Toegangscode-vergrendeling</string>
     <string name="ChangePasscode">Toegangscode wijzigen</string>
-    <string name="ChangePasscodeInfo">Als je een toegangscode instelt, verschijnt er een slotje op de chatspagina. Raak het slotje aan om Delta Chat te vergrendelen of te ontgrendelen.\n\nLet op: als je de toegangscode vergeet, dan zul je de app moeten verwijderen en herinstalleren.</string>
+    <string name="ChangePasscodeInfo">Als je een toegangscode instelt, dan verschijnt er een slotje boven de gesprekslijst. Druk erop om de app te vergrendelen.\n\nLet op: als je de toegangscode vergeet, dan moet je de app herinstalleren.</string>
     <string name="PasscodePIN">Pincode</string>
     <string name="PasscodePassword">Wachtwoord</string>
-    <string name="EnterCurrentPasscode">Huidige toegangscode invoeren</string>
-    <string name="EnterNewFirstPasscode">Toegangscode invoeren</string>
-    <string name="EnterNewPasscode">Nieuwe toegangscode invoeren</string>
-    <string name="EnterYourPasscode">Toegangscode invoeren</string>
-    <string name="ReEnterYourPasscode">Toegangscode opnieuw invoeren</string>
-    <string name="PasscodeDoNotMatch">Toegangscodes komen niet overeen</string>
+    <string name="EnterCurrentPasscode">Voer je huidige toegangscode in</string>
+    <string name="EnterNewFirstPasscode">Voer een toegangscode in</string>
+    <string name="EnterNewPasscode">Voer je nieuwe toegangscode in</string>
+    <string name="EnterYourPasscode">Voer je toegangscode in</string>
+    <string name="ReEnterYourPasscode">Voer je toegangscode nogmaals in</string>
+    <string name="PasscodeDoNotMatch">De toegangscodes komen niet overeen</string>
     <string name="AutoLock">Automatisch vergrendelen</string>
-    <string name="AutoLockInfo">Vraag om toegangscode indien afwezig</string>
+    <string name="AutoLockInfo">Vraag om toegangscode indien afwezig.</string>
     <string name="UnlockFingerprint">Ontgrendelen met vingerafdruk</string>
-    <string name="FingerprintInfo">Vingerafdruk bevestigen</string>
+    <string name="FingerprintInfo">Bevestig je vingerafdruk om door te gaan</string>
     <string name="FingerprintNotRecognized">Vingerafdruk niet herkend; probeer het opnieuw.</string>
     <!--photo gallery view-->
-    <string name="SaveToGallery">Opslaan in galerij</string>
+    <string name="SaveToGallery">Opslaan in \"Galerij\"</string>
     <string name="Of">%1$d van %2$d</string>
     <string name="Gallery">Galerij</string>
     <string name="AllPhotos">Alle foto\'s</string>
@@ -189,26 +189,26 @@
     <string name="AttachPhoto">Foto</string>
     <string name="AttachVideo">Video</string>
     <string name="AttachGif">GIF</string>
-    <string name="AttachContact">Contact</string>
+    <string name="AttachContact">Contactpersoon</string>
     <string name="AttachDocument">Bestand</string>
     <string name="AttachVoiceMessage">Spraakbericht</string>
     <string name="FromSelf">Ik</string>
     <!--Alert messages-->
-    <string name="NoHandleAppInstalled">Je hebt geen apps die bestandstype \'%1$s\' kunnen verwerken. Installeer er één om door te gaan.</string>
-    <string name="ContactAlreadyInGroup">De gebruiker is al lid van deze groep.</string>
-    <string name="ForwardMessagesTo">Berichten doorsturen naar <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <string name="NoHandleAppInstalled">Installeer een app die het bestandstype \'%1$s\' kan verwerken om door te gaan.</string>
+    <string name="ContactAlreadyInGroup">De contactpersoon neemt al deel aan deze groep.</string>
+    <string name="ForwardMessagesTo">Geselecteerde berichten doorsturen naar <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
     <string name="SendMessagesTo">Berichten naar <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> versturen?</string>
-    <string name="AreYouSureDeleteThisChat">Wil je deze chat verwijderen? De chat verdwijnen uit de chatlijst, maar de berichten zullen bewaard blijven op de server.</string>
-    <string name="AreYouSureBlockContact">Weet je zeker dat je deze persoon wilt blokkeren?</string>
-    <string name="AreYouSureDeleteContact">Weet je zeker dat je deze persoon wilt verwijderen?</string>
+    <string name="AreYouSureDeleteThisChat">Wil je dit gesprek verwijderen? Het gesprek verdwijnt uit de gesprekslijst, maar de berichten worden bewaard op de server.</string>
+    <string name="AreYouSureBlockContact">Weet je zeker dat je deze contactpersoon wilt blokkeren?</string>
+    <string name="AreYouSureDeleteContact">Weet je zeker dat je deze contactpersoon wilt verwijderen?</string>
     <!--permissions-->
-    <string name="PermissionContacts">Delta Chat heeft toegang tot je contacten nodig zodat je kan chatten met je vrienden vanaf al je apparaten.</string>
-    <string name="PermissionStorage">Delta Chat heeft toegang tot je opslaggeheugen nodig zodat je foto\'s, video\'s, muziek en andere media kunt opslaan en versturen.</string>
-    <string name="PermissionNoAudio">Delta Chat heeft toegang tot je microfoon nodig om spraakberichten op te kunnen nemen.</string>
+    <string name="PermissionContacts">Verleen toegang tot je contactpersonen als je je vrienden wilt synchroniseren tussen al je apparaten.</string>
+    <string name="PermissionStorage">Verleen toegang tot je opslaggeheugen als je foto\'s, video\'s, muziek en andere media wilt opslaan en versturen.</string>
+    <string name="PermissionNoAudio">Verleen toegang tot je microfoon als je spraakberichten wilt opnemen.</string>
     <string name="PermissionOpenSettings">Instellingen</string>
     <!--Intro view-->
     <string name="Intro1Headline">Delta Chat</string>
-    <string name="Intro1Message">De berichtenapp met het <![CDATA[<b>grootste bereik</b>]]> van de hele wereld. <![CDATA[<br/><b>Gratis</b>]]> en <![CDATA[<b>onafhankelijk</b>]]>.</string>
+    <string name="Intro1Message">De berichtenapp met het <![CDATA[<b>grootste bereik</b>]]> ter wereld. <![CDATA[<br/><b>Gratis</b>]]> en <![CDATA[<b>onafhankelijk</b>]]>.</string>
 
     <string name="Intro2Headline">Onafhankelijk</string>
     <string name="Intro2Message"><![CDATA[<b>Er is geen globale Delta Chat-server.</b>]]> De app gebruikt alleen je eigen mailserver.</string>
@@ -217,7 +217,7 @@
     <string name="Intro3Message"><![CDATA[<b>Push-berichten</b>]]> in seconden.<![CDATA[<br/>]]>Snelle gebruikersomgeving.</string>
 
     <string name="Intro4Headline">Krachtig</string>
-    <string name="Intro4Message"><![CDATA[<b>Onbeperkte</b>]]> chats, afbeeldingen, filmpjes, audioberichten en meer. Werkt samen met andere clients.</string>
+    <string name="Intro4Message"><![CDATA[<b>Onbeperkt</b>]]> aantal gesprekken, foto\'s, video\'s, audioberichten en meer. Werkt samen met andere clients.</string>
 
     <string name="Intro5Headline">Gratis</string>
     <string name="Intro5Message"><![CDATA[<b>Delta Chat</b>]]> is en blijft gratis.<![CDATA[<br/>]]>Open bron-software, geen reclame, geen abonnement en onafhankelijk van leveranciers.</string>
@@ -227,19 +227,19 @@
 
     <string name="Intro7Headline">Betrouwbaar</string>
 
-    <string name="IntroStartMessaging">Begin met chatten</string>
+    <string name="IntroStartMessaging">Begin een gesprek</string>
     <!--plural-->
     <plurals name="Members">
-        <item quantity="one">%d leden</item>
-        <item quantity="other">%d leden</item>
+        <item quantity="one">%d deelnemer</item>
+        <item quantity="other">%d deelnemers</item>
     </plurals>
     <plurals name="Contacts">
-        <item quantity="one">%d contact</item>
-        <item quantity="other">%d contacten</item>
+        <item quantity="one">%d contactpersoon</item>
+        <item quantity="other">%d contactpersonen</item>
     </plurals>
     <plurals name="MeAndMembers">
-        <item quantity="one">%d lid en ik</item>
-        <item quantity="other">%d leden en ik</item>
+        <item quantity="one">%d deelnemer en ik</item>
+        <item quantity="other">%d deelnemers en ik</item>
     </plurals>
     <plurals name="NewMessages">
         <item quantity="one">%d nieuw bericht</item>
@@ -250,19 +250,19 @@
         <item quantity="other">%d berichten</item>
     </plurals>
     <plurals name="AreYouSureDeleteMessages">
-        <item quantity="one">Verwijder %d bericht? Het bericht zal ook van de server worden verwijderd.</item>
-        <item quantity="other">%d berichten verwijderen? De berichten zullen ook van de server worden verwijderd.</item>
+        <item quantity="one">%d bericht verwijderen, zowel lokaal als op de server.</item>
+        <item quantity="other">%d berichten verwijderen, zowel lokaal als op de server.</item>
     </plurals>
     <!-- Translators: The first string placeholder gets replaced with the
     text "%d new messages", so the complete sentence would be e.g.
     "4 new messages in 2 chats". -->
     <plurals name="NewMessagesInChats">
-        <item quantity="one">%1$s in %2$d chat</item>
-        <item quantity="other">%1$s in %2$d chats</item>
+        <item quantity="one">%1$s in %2$d gesprek</item>
+        <item quantity="other">%1$s in %2$d gesprekken</item>
     </plurals>
     <plurals name="Chats">
-        <item quantity="one">%d chat</item>
-        <item quantity="other">%d chats</item>
+        <item quantity="one">%d gesprek</item>
+        <item quantity="other">%d gesprekken</item>
     </plurals>
     <plurals name="Minutes">
         <item quantity="one">%d minuut</item>
@@ -288,8 +288,8 @@
     text "%d minutes", so the complete sentence would be e.g.
     "At most 8 notifications within 3 minutes". -->
     <plurals name="MaxNotifications">
-        <item quantity="one">Hooguit %1$d melding binnen %2$s</item>
-        <item quantity="other">Hooguit %1$d meldingen binnen %2$s</item>
+        <item quantity="one">Maximaal %1$d melding binnen %2$s</item>
+        <item quantity="other">Maximaal %1$d meldingen binnen %2$s</item>
     </plurals>
     <!--date formatters-->
     <string name="formatterMonthYear">MMMM yyyy</string>
@@ -304,7 +304,7 @@
     <string name="AccountSettings">Accountinstellingen</string>
     <string name="MyAccount">Mijn account</string>
     <string name="MyName">Mijn naam</string>
-    <string name="MyNameExplain">Je naam, zoals de ontvangers dit zien. Als je hier geen naam invult, dan zullen de ontvangers alleen je e-mailadres zien.</string>
+    <string name="MyNameExplain">Je naam, zoals de ontvangers die zien. Als je geen naam invoert, dan zullen de ontvangers alleen je e-mailadres zien.</string>
     <string name="Password">Wachtwoord</string>
     <string name="SmtpPassword">SMTP-wachtwoord</string>
     <string name="FromAbove">Van hierboven</string>
@@ -327,49 +327,49 @@
     <string name="AboutThisProgram">Over Delta Chat</string>
     <string name="NotSet">Niet ingesteld</string>
     <string name="NewChat">Nieuwe chat</string>
-    <string name="Deaddrop">Contactverzoeken</string>
-    <string name="DeaddropInChatlist">Contactverzoeken weergeven in de chatlijst</string>
+    <string name="Deaddrop">Contactpersoonverzoeken</string>
+    <string name="DeaddropInChatlist">Contactpersoonverzoeken tonen in de gesprekslijst</string>
     <string name="MuteAlways">Altijd gedempt</string>
-    <string name="AskStartChatWith">Chat beginnen met <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
-    <string name="DeaddropHint">Klik op het reactiepijltje om een chat te beginnen.</string>
+    <string name="AskStartChatWith">Wil je een gesprek beginnen met <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <string name="DeaddropHint">Druk op de reactiepijltjes om een gesprek te beginnen.</string>
     <string name="NotYetImplemented">Deze functie is niet beschikbaar of incompleet.</string>
     <!-- Translators: The URL should not be localized, it is not clear which languuage the receiver prefers and the language will be detected on the server -->
     <string name="DefaultStatusText">Verstuurd met mijn Delta Chat Messenger: https://delta.chat</string>
     <string name="Name" >Naam</string>
     <string name="EmailAddress">E-mailadres</string>
-    <string name="CannotDeleteContact">In gebruik zijnde contacten kunnen niet worden verwijderd; blokkeer het contact.</string>
+    <string name="CannotDeleteContact">In gebruik zijnde contactpersonen kunnen niet worden verwijderd; blokkeer de contactpersoon.</string>
     <string name="BadEmailAddress">Ongeldig e-mailadres.</string>
-    <string name="ContactCreated">Contact gecreëerd.</string>
-    <string name="ViewProfile">Profiel weergeven</string>
+    <string name="ContactCreated">Contactpersoon gecreëerd.</string>
+    <string name="ViewProfile">Profiel tonen</string>
     <!-- Translators: please use a very short string here, it should not much longer than
     the string needed for video time+size (0:00, 12,3 Mib) -->
-    <string name="OneMoment">Even geduld ...</string>
-    <string name="NoChatsHelp">Stuur berichten door op de knop \"Nieuwe chat\" (rechtsonder) te drukken of druk op de menuknop voor meer opties.</string>
+    <string name="OneMoment">Even geduld...</string>
+    <string name="NoChatsHelp">Stuur berichten door op de knop \"Nieuw gesprek\" (rechtsonder) te drukken of druk op de menuknop voor meer opties.</string>
     <string name="Intro7Message"><![CDATA[<b>Delta Chat</b>]]> is veilig voor het bedrijfsleven, compatibel en gebaseerd op standaarden.</string>
     <string name="InviteMenuEntry">Uitnodigingen versturen</string>
     <string name="InviteText">Ik gebruik Delta Chat, %1$s. Je kunt me berichten sturen op %2$s</string>
     <string name="AdvancedSettings">Geavanceerd</string>
-    <string name="AskResetNotifications">Alle meldingsinstellingen en geluiden van deze pagina, contacten en groepen terugzetten op standaardwaarden?</string>
+    <string name="AskResetNotifications">Alle meldingsinstellingen en geluiden van deze pagina, contactpersonen en groepen terugzetten op standaardwaarden?</string>
     <string name="AttachFiles">Bestanden toevoegen</string>
     <string name="ErrGroupNameEmpty">Voer een groepsnaam in.</string>
     <string name="MsgNewGroupDraftHint">Schrijf een eerste bericht om anderen te kunnen laten reageren in deze groep.\n\n• Het is niet erg als niet iedereen Delta Chat gebruikt.\n\n• Het bezorgen van het eerste bericht kan even duren.</string>
-    <string name="MsgNewGroupDraft">Hallo, ik heb zojuist de groep \"%1$s\" voor ons gemaakt.</string>
-    <string name="MsgGroupNameChanged">Groepsnaam veranderd van \"%1$s\" naar \"%2$s\".</string>
+    <string name="MsgNewGroupDraft">Hallo, ik heb zojuist de groep \"%1$s\" voor ons gecreëerd.</string>
+    <string name="MsgGroupNameChanged">Groepsnaam aangepast van \"%1$s\" naar \"%2$s\".</string>
     <string name="MsgGroupImageChanged">Groepsafbeelding gewijzigd.</string>
-    <string name="MsgMemberAddedToGroup">Lid %1$s toegevoegd.</string>
-    <string name="MsgMemberRemovedFromToGroup">Lid %1$s verwijderd.</string>
+    <string name="MsgMemberAddedToGroup">Deelnemer %1$s toegevoegd.</string>
+    <string name="MsgMemberRemovedFromToGroup">Deelnemer %1$s verwijderd.</string>
     <string name="AskAddMemberToGroup"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> toevoegen aan de groep?</string>
     <string name="AskRemoveMemberFromGroup"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> verwijderen uit de groep?</string>
-    <string name="ErrSelfNotInGroup">Je moet lid van de groep zijn om deze actie uit te kunnen voeren.</string>
+    <string name="ErrSelfNotInGroup">Je moet deelnemen aan de groep om deze actie uit te kunnen voeren.</string>
     <string name="MsgGroupLeft">Groep verlaten.</string>
     <string name="NoMessagesHint">Stuur een bericht naar <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>:\n\n• Het is niet erg als  <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> geen Delta Chat gebruikt.\n\n• Het bezorgen van het eerste bericht kan even duren.</string>
     <string name="SendNRcvReadReceipts">Leesbevestigingen ontvangen en versturen</string>
     <string name="PreferE2EEncryption">End-to-end-versleuteling prefereren</string>
-    <string name="E2EManagePrivateKeys">Privésleutels beheren</string>
+    <string name="E2EManagePrivateKeys">Sleutels beheren</string>
     <string name="E2ECompareKeys">Sleutels vergelijken</string>
-    <string name="ForwardToTitle">Kies een chat …</string>
-    <string name="SelectContact">Kies een contact</string>
-    <string name="DoneHint">Afgerond.</string>
+    <string name="ForwardToTitle">Doorsturen naar...</string>
+    <string name="SelectContact">Kies een contactpersoon</string>
+    <string name="DoneHint">Voltooid.</string>
     <string name="FileNotFound">%1$s kan niet worden gevonden.</string>
     <string name="Error">Fout: %1$s</string>
     <string name="NoNetwork">Netwerk niet beschikbaar.</string>
@@ -379,7 +379,7 @@
     <string name="PermNotificationText">Wachten op berichten ...</string>
     <string name="SettingsFor">Instellingen voor %1$s</string>
     <string name="AutoplayGifs">GIF-bestanden automatisch afspelen</string>
-    <string name="HelpUrl">https://delta.chat/nl/help</string>
+    <string name="HelpUrl">https://delta.chat/en/help</string>
     <string name="EncryptedMessage">Versleuteld bericht</string>
     <string name="Encryption">Versleuteling</string>
     <string name="EncrinfoE2EAvailable">End-to-end-versleuteling beschikbaar.</string>
@@ -387,12 +387,12 @@
     <string name="EncrinfoNone">Geen versleuteling naar mijn server.</string>
     <string name="EncrinfoFingerprints">Vingerafdrukken</string>
     <string name="Backup">Archief</string>
-    <string name="ImportBackupExplain2">Om een archief te importeren, kopieer een archief naar <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> en herinstalleer de app.</string>
-    <string name="ReadReceiptMailBody">Dit is een leesbevestiging voor het bericht \"%1$s\".\n\nHet betekent dat het bericht op het apparaat van de ontvanger is weergegeven, maar dat hoeft niet te betekenen dat de inhoud ook gelezen is.</string>
+    <string name="ImportBackupExplain2">Als je een archief wilt importeren, dan moet je dit kopiëren naar <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> en de app herinstalleren.</string>
+    <string name="ReadReceiptMailBody">Dit is een leesbevestiging voor het bericht \"%1$s\".\n\nHet betekent dat het bericht op het apparaat van de ontvanger is getoond, maar niet dat de inhoud ook daadwerkelijk is gelezen.</string>
     <string name="ReadReceipt">Leesbevestiging</string>
     <string name="NameAndStatus">Naam en status</string>
     <string name="MyStatus">Mijn status</string>
-    <string name="MyStatusExplain">De status wordt onder in e-mailvoetteksten weergegeven.</string>
+    <string name="MyStatusExplain">De status wordt getoond in e-mailvoetteksten.</string>
     <string name="MsgGroupImageDeleted">Groepsafbeelding verwijderd.</string>
     <string name="AskDeleteGroupImage">Weet je zeker dat je de groepsafbeelding wilt verwijderen? \ N \ nDit beïnvloed alle groepsleden.</string>
     <string name="ExportImportHeader">Exporteren en importeren</string>
@@ -401,27 +401,27 @@
     <string name="IncorrectPassword">Onjuist wachtwoord.</string>
     <string name="ImportBackupAsk">Archief gevonden in <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>.\n\nWil je alle gegevens en instellingen ervan importeren en gebruiken?</string>
     <string name="ImportBackup">Archief importeren</string>
-    <string name="NoBackupFound">Geen archief gevonden.\n\nKopieer het archief naar <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> en probeer het opnieuw. Je kunt ook drukken op \"Beginnen met chatten\" om met het normale instelproces te doorlopen.</string>
+    <string name="NoBackupFound">Geen archief aangetroffen.\n\nKopieer het archief naar <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> en probeer het opnieuw. Je kunt ook drukken op \"Begin een gesprek\" om het normale instelproces te doorlopen.</string>
     <string name="FilesSuccessfullyExported">Bestanden geëxporteerd naar <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>.</string>
     <string name="ExportBackup">Archief exporteren</string>
     <string name="ExportPrivateKeys">Privésleutels exporteren</string>
     <string name="ImportPrivateKeys">Privésleutels importeren</string>
-    <string name="ImportPrivateKeysAsk2">Sleutels importeren uit <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>?\n\n• Bestaande sleutels worden niet verwijderd\n\n• De laatst geïmporteerde sleutel wordt gebruikt als de nieuwe standaardsleutel.</string>
-    <string name="NoRecentEmoji">Recent gebruikte emoji\'s worden hier weergegeven.</string>
+    <string name="ImportPrivateKeysAsk2">Sleutels importeren uit <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>?\n\n• Bestaande sleutels worden niet verwijderd\n\n• De laatst geïmporteerde sleutel wordt gebruikt als nieuwe standaardsleutel</string>
+    <string name="NoRecentEmoji">Recent gebruikte emoji\'s worden hier getoond.</string>
     <string name="NotNow">Niet nu</string>
-    <string name="ArchiveChat">Chat archiveren</string>
-    <string name="UnarchiveChat">Chat uit archief halen</string>
-    <string name="ArchivedChats">Chats gearchiveerd</string>
+    <string name="ArchiveChat">Gesprek archiveren</string>
+    <string name="UnarchiveChat">Gesprek de-archiveren</string>
+    <string name="ArchivedChats">Gearchiveerde gesprekken</string>
     <string name="Archived">Gearchiveerd</string>
     <string name="LeaveGroup">Groep verlaten</string>
     <string name="AskLeaveGroup">Weet je zeker dat je deze groep wilt verlaten?</string>
     <string name="Never">Nooit</string>
     <string name="AutocryptKeyTransferInitiate">Autocrypt-instelbericht versturen</string>
     <string name="AutocryptKeyTransfer">Autocrypt-instelbericht</string>
-    <string name="AutocryptKeyTransferMsgBeforeSend">Het <![CDATA[<i>]]>Autocrypt-instelbericht<![CDATA[</i>]]> vereist dat Autocrypt beschikbaar is in de e-mailclient op het andere apparaat. \n\n De sleutel is versleuteld met een weergegeven code en dient te worden ingevoerd op het andere apparaat.</string>
+    <string name="AutocryptKeyTransferMsgBeforeSend">Het <![CDATA[<i>]]>Autocrypt-instelbericht<![CDATA[</i>]]> vereist dat Autocrypt beschikbaar is in de e-mailclient op het andere apparaat. \n\n De sleutel is versleuteld met een getoonde code en dient te worden ingevoerd op het andere apparaat.</string>
     <string name="AutocryptKeyTransferMsgAfterSend">Je sleutel is naar jezelf gestuurd. Schakel over naar het andere apparaat en open het instelbericht. Er zou nu moeten worden gevraagd naar een instelcode. Typ de volgende cijfers in het invoervak:\n\n%1$s\n\nAls je klaar bent, dan is je andere apparaat ingesteld om Autocrypt te gebruiken.</string>
     <string name="AutocryptSetupMessageSubject">Autocrypt Opstart Bericht</string>
-    <string name="AutocryptSetupMessageGeneralBody">Dit is het Autocrypt-instelbericht dat gebruikt wordt om je sleutel tussen clients over te brengen.\n\nOm je sleutel te ontsleutelen en te gebruiken, open het bericht in een client met Autocrypt-functionaliteit en voer de code in die op het apparaat wordt weergegeven.</string>
+    <string name="AutocryptSetupMessageGeneralBody">Dit is het Autocrypt-instelbericht dat gebruikt wordt om je sleutel tussen clients over te brengen.\n\nOm je sleutel te ontsleutelen en te gebruiken, open het bericht in een client met Autocrypt-functionaliteit en voer de op het apparaat getoonde code in.</string>
     <string name="AutocryptSetupMessageTapBody">Dit is het Autocrypt-instelbericht dat gebruikt wordt om je sleutel tussen clients over te brengen.\n\nDruk op dit bericht om je sleutel te ontsleutelen en te gebruiken.</string>
     <string name="AutocryptKeyTransferPleaseEnterCode">Voer de opstartcode in die wordt weergegeven op het andere apparaat.</string>
     <string name="AutocryptKeyTransferBadCode">Ongeldige instelcode. Probeer het opnieuw. \n\nAls je de instelcode niet meer weet, begin je sleuteloverdracht op het andere apparaat dan opnieuw.</string>
@@ -429,29 +429,30 @@
     <string name="Retry">Opnieuw</string>
     <string name="SelfTalkSubtitle">Aan mijzelf gestuurde berichten</string>
     <string name="QrScan">QR-code scannen</string>
-    <string name="QrShow">QR-code weergeven</string>
+    <string name="QrShow">QR-code tonen</string>
     <string name="QrScanContainsText">De gescande QR-code bevat de volgende tekst:\n\n%1$s</string>
     <string name="QrScanContainsUrl">De gescande QR-code bevat de volgende URL:\n\n%1$s</string>
     <string name="OobFingerprint">Vingerafdruk</string>
-    <string name="OobFingerprintAskOob">Contact verifiëren en beginnen met chatten met <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
-    <string name="OobFingerprintOk">Contact <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> is geverifieerd. Beginnen met chatten?</string>
+    <string name="OobFingerprintAskOob">Wil je de contactpersoon goedkeuren en een gesprek beginnen met <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <string name="OobFingerprintOk">De contactpersoon <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> is goedgekeurd. Wil je een gesprek beginnen?</string>
     <string name="OobFingerprintMismatch">De gescande vingerafdruk <![CDATA[<b>]]>komt niet overeen<![CDATA[</b>]]> met de laatst gebruikte vingerafdruk voor <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>.</string>
-    <string name="OobFingerprintWithoutAddr">Deze QR-code bevat een vingerafdruk, maar geen e-mailadres.\n\nZorg eerst voor een versleutelde verbinding met de ontvanger voor een out-of-band-verificatie.</string>
-    <string name="OobSecureJoinRequested">%1$sis lid geworden.</string>
+    <string name="OobFingerprintWithoutAddr">Deze QR-code bevat een vingerafdruk, maar geen e-mailadres.\n\nZorg eerst voor een versleutelde verbinding met de ontvanger voor een out-of-band-goedkeuring.</string>
+    <string name="OobSecureJoinRequested">%1$sneemt deel aan het gesprek.</string>
     <string name="CannotDecryptBody">Dit bericht kan niet worden ontsleuteld.\n\n• Het kan helpen om dit bericht te beantwoorden en de afzender te vragen het bericht opnieuw te versturen.\n\n• Als je Delta Chat of een e-mailapplicatie opnieuw hebt geïnstalleerd op dit of een ander apparaat, dan kun je beter een Autocrypt-instelbericht versturen.</string>
     <string name="Autocrypt">Autocrypt</string>
     <string name="AutocryptExplain"><![CDATA[<i>]]>Autocrypt<![CDATA[</i>]]> is een nieuwe, open specificatie voor end-to-end-versleuteling van e-mails.\n\nJe privésleutel wordt, indien nodig, automatisch gecreëerd en je kunt deze delen met andere apparaten d.m.v. <![CDATA[<i>]]>Autocrypt-instelberichten.<![CDATA[</i>]]></string>
-    <string name="NewVerifiedGroup">Nieuwe geverifieerde groep</string>
-    <string name="SharedChats">Gedeelde chats</string>
-    <string name="VerifiedContact">Geverifieerd contact</string>
-    <string name="Contact">Contact</string>
-    <string name="VerifiedGroup">Geverifieerde groep</string>
+    <string name="NewVerifiedGroup">Nieuwe goedgekeurde groep</string>
+    <string name="SharedChats">Gedeelde gesprekken</string>
+    <string name="VerifiedContact">Goedgekeurd contactpersoon</string>
+    <string name="Contact">Contactpersoon</string>
+    <string name="VerifiedGroup">Goedgekeurde groep</string>
     <string name="Group">Groep</string>
-    <string name="EditedNameWillBeShared">De nieuwe naam zal worden gedeeld met alle groepsleden.</string>
+    <string name="EditedNameWillBeShared">De nieuwe naam zal worden gedeeld met alle deelnemers.</string>
     <string name="E2EEncryptionPreferred">Voorkeur voor end-to-end-versleuteling.</string>
-    <string name="OobAddrVerified">%1$s is geverifieerd.</string>
-    <string name="OobAddrVerifiedIntroduceMyself">%1$sis geverifieerd; introduceer me...</string>
-    <string name="OobAskJoinVerifiedGroup">Wil je lid worden van de geverifieerde groep <![CDATA[]]>%1$s<![CDATA[]]>?</string>
+    <string name="OobAddrVerified">%1$s is goedgekeurd.</string>
+    <string name="OobGroupJoined">%1$s heeft veilig deelgenomen aan de groep.</string>
+    <string name="OobAddrVerifiedIntroduceMyself">%1$sis goedgekeurd; introduceer jezelf...</string>
+    <string name="OobAskJoinVerifiedGroup">Wil je deelnemen aan de goedgekeurde groep <![CDATA[]]>%1$s<![CDATA[]]>?</string>
     <!-- Translators: %1$s is replaced by an action, eg. MsgMemberAddedToGroup, MsgMemberRemovedFromToGroup, MsgGroupNameChanged or MsgGroupImageChanged. If the action ends with a full stop, this is removed.
     %2$s is replaced by a the name of the user that made this action.
     Resulting strings might be "Member Alice added by Bob." or 'Group name changed from "Foo" to "Bar" by Claire.
@@ -464,16 +465,20 @@
     <string name="ExampleEmailAddr">gebruiker@voorbeeld.org</string>
     <string name="QrScanHint">Houdt je camera boven de QR-code</string>
 
-    <string name="QrShowVerifyCode">QR-verificatiecode tonen</string>
-    <string name="QrVerifyContactTitle">QR-verificatiecode</string>
-    <string name="QrVerifyContactHint"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\nScan dit om een geverifieerde contactpersoon in te stellen.</string>
+    <string name="QrShowVerifyCode">QR-goedkeuringscode tonen</string>
+    <string name="QrVerifyContactTitle">QR-goedkeuringscode</string>
+    <string name="QrVerifyContactHint"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\nScan dit om een goedgekeurd contactpersoon in te stellen.</string>
 
-    <string name="QrShowInviteCode">QR-code voor uitnodigingen weergeven</string>
+    <string name="QrShowInviteCode">QR-uitnodigingscode tonen</string>
     <string name="QrJoinVerifiedGroupTitle">QR-uitnodigingscode</string>
-    <string name="QrJoinVerifiedGroupHint">Scan dit om lid te worden van een geverifieerde groep <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+    <string name="QrJoinVerifiedGroupHint">Scan dit om deel te nemen aan de goedgekeurde groep <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
     <string name="FetchMode">Ophaalmodus</string>
     <string name="FetchModeSaveBattery">Batterijbesparing</string>
-    <string name="FetchModePersistentConnection">Aanhoudende verbinding</string>
-    <string name="FetchModeExplain">Bij gebruik van de ophaalmodus <![CDATA[<i>]>Batterij sparen<![CDATA[</i>]]>, verschijnen nieuwe berichten meteen wanneer de app op de voorgrond staat en met een gemiddelde vertraging van 30 seconden als de app niet wordt gebruikt. Wanneer het apparaat in sluimerstand (doze mode) is, kan de vertraging langer zijn. Dit is de standaardmodus.\n\n<![CDATA[<i>]]>Continue connectie<![CDATA[</i>]]> is meestal sneller maar vereist mogelijk dat de app in de systeeminstellingen op de witte lijst wordt geplaatst om meer batterij te mogen verbruiken.\n\nWelke ophaalmodus wilt u gebruiken?</string>
+    <string name="FetchModePersistentConnection">Permanente verbinding</string>
+    <string name="FetchModeExplain">Bij gebruik van de ophaalmodus <![CDATA[<i>]>Batterijbesparing<![CDATA[</i>]]> verschijnen nieuwe berichten meteen zodra de app op de voorgrond staat en met een gemiddelde vertraging van 30 seconden als de app niet wordt gebruikt. Als het apparaat in sluimerstand is, kan de vertraging langer zijn. Dit is de standaardmodus.\n\n<![CDATA[<i>]]>Permanente verbinding<![CDATA[</i>]]> is meestal sneller, maar vereist mogelijk dat de app in de systeeminstellingen op de witte lijst wordt geplaatst om meer batterij te mogen verbruiken.\n\nWelke ophaalmodus wil je gebruiken?</string>
     <string name="PermissionCamera">Cameratoegang is nodig als je foto\'s wilt maken of QR-codes wilt scannen.</string>
-    </resources>
+    <!-- Translators: %1$s will be replaced by the email address -->
+    <string name="ErrCannotLogin">Kan niet inloggen als <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. Controleer je e-mailadres en wachtwoord.</string>
+    <!-- Translators: %1$s will be replaced by the server name (eg. imap.somewhere.org) and %2$s will be replaced by the human-readable response from the server. this response may be a single word or some sentences and may or may not be localized. -->
+    <string name="ErrSeverResponse">Antwoord van %1$s: %2$s\n\nSommige providers plaatsen extra informatie in je Postvak IN; je kunt dit controleren in de webversie. Neem bij problemen contact op met je provider of vrienden.</string>
+</resources>

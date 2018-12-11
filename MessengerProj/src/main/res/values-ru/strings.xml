@@ -500,7 +500,7 @@
     <string name="QrJoinVerifiedGroupTitle">Пригласительный QR код</string>
     <string name="QrJoinVerifiedGroupHint">Сканируйте этот код для вступления в доверенную группу <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
     <string name="FetchMode">Режим выборки</string>
-    <string name="FetchModeSaveBattery">Сохранять баратею</string>
+    <string name="FetchModeSaveBattery">Сохранять батарею</string>
     <string name="FetchModePersistentConnection">Постоянное соединение</string>
     <string name="FetchModeExplain">Когда используется режим выборки <![CDATA[<i>]]>Сохранять батарею<![CDATA[</i>]]>, новые сообщения появляются сразу, если приложение находится в фоне, если приложение не используется, с задержкой в 30 секунд. Когда устройство находится в «Спящем режиме» задержка может быть дольше. Это режим по умолчанию.\n\n<![CDATA[<i>]]>Постоянное соединение<![CDATA[</i>]]> обычно сообщения приходят быстрее, но в таком случае расход батареи может быть значительным.\n\nКакой режим выборки вы желаете использовать?</string>
     <string name="PermissionCamera">Необходим допуск к камере если вы хотите сделать фотоснимок или сканировать QR коды.</string>

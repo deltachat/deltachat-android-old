@@ -17,7 +17,7 @@
     <string name="UnmuteNotifications">Stumm aus</string>
     <string name="Draft">Entwurf</string>
     <!--audio view-->
-    <string name="NoAudio">Musikdateien der Android Musikbibliothek hinzufügen, um sie hier zu sehen.</string>
+    <string name="NoAudio">Audiodateien aus deiner Musikbibliothek</string>
     <string name="AttachMusic">Musik</string>
     <!--documents view-->
     <string name="SelectFile">Datei auswählen</string>
@@ -88,7 +88,7 @@
     <string name="Enabled">An</string>
     <string name="Disabled">Aus</string>
     <string name="LedColor">LED-Farbe</string>
-    <string name="BadgeNumber">Anzahl auf Icon anzeigen, wenn möglich</string>
+    <string name="BadgeNumber">Wenn möglich, Anzahl auf Icon anzeigen</string>
     <string name="Short">Kurz</string>
     <string name="Long">Lang</string>
     <string name="RaiseToSpeak">Ans Ohr für Sprachnachricht</string>
@@ -205,7 +205,7 @@
     <string name="PermissionContacts">Für eine einfache Kontaktaufnahme, benötigt Delta Chat Zugriff auf die Kontakte. Die Daten werden dabei nur lokal verarbeitet und zu keinem Server oder Dienst übertragen.</string>
     <string name="PermissionStorage">Um Bilder, Videos, Musik und Dateien senden und speichern zu können, benötigt Delta Chat Zugriff auf den Speicher.</string>
     <string name="PermissionNoAudio">Um Sprachnachrichten versenden zu können, benötigt Delta Chat Zugriff auf das Mikrofon.</string>
-    <string name="PermissionOpenSettings">Einstellungen anpassen</string>
+    <string name="PermissionOpenSettings">Einstellungen</string>
     <!--Intro view-->
     <string name="Intro1Headline">Delta Chat</string>
     <string name="Intro1Message">Der Messenger mit der <![CDATA[<b>größten Reichweite</b>]]> der Welt. <![CDATA[<b>Frei</b>]]> und <![CDATA[<b>unabhängig</b>]]>.</string>
@@ -214,7 +214,7 @@
     <string name="Intro2Message"><![CDATA[<b>Es gibt keinen Delta-Chat-Server.</b>]]> Die App verwendet nur Ihren E-Mail-Server.</string>
 
     <string name="Intro3Headline">Schnell</string>
-    <string name="Intro3Message"><![CDATA[<b>Push-Nachrichten</b>]]> in Sekunden.<![CDATA[<br/>]]>Rasantes Interface.</string>
+    <string name="Intro3Message"><![CDATA[<b>Push-Nachrichten</b>]]> in Sekunden.<![CDATA[<br/>]]>Schnelles Interface.</string>
 
     <string name="Intro4Headline">Leistungsstark</string>
     <string name="Intro4Message"><![CDATA[<b>Unbegrenzte</b>]]> Chats, Bilder, Videos, Sprachnachrichten und mehr. Multi-Client-fähig.</string>
@@ -304,7 +304,7 @@
     <string name="AccountSettings">Kontoeinstellungen</string>
     <string name="MyAccount">Mein Konto</string>
     <string name="MyName">Mein Name</string>
-    <string name="MyNameExplain">Hier den Namen eingeben, wie er den Empfängern von Nachrichten gezeigt werden soll. Wenn kein Name angegeben wird, erhält der Empfänger nur die E-Mail-Adresse.</string>
+    <string name="MyNameExplain">Hier den Namen eingeben, wie er den Empfängern von Nachrichten angezeigt werden soll. Wenn kein Name angegeben ist, wird dem Empfänger die E-Mailadresse angezeigt.</string>
     <string name="Password">Passwort</string>
     <string name="SmtpPassword">SMTP-Passwort</string>
     <string name="FromAbove">Wie oben</string>
@@ -398,10 +398,10 @@
     <string name="MsgGroupImageDeleted">Gruppenbild gelöscht.</string>
     <string name="AskDeleteGroupImage">Soll das Gruppenbild für alle Gruppenmitglieder gelöscht werden?</string>
     <string name="ExportImportHeader">Export und Import</string>
-    <string name="ImportExportExplain">Exportierte Dateien enthalten private Schlüssel! Bewahren Sie die Dateien an einem sicheren Ort und oder löschen Sie sie, sobald sie nicht mehr benötigt werden.</string>
+    <string name="ImportExportExplain">Exportierte Dateien enthalten private Schlüssel! Bewahren Sie die Dateien an einem sicheren Ort oder löschen Sie diese, sobald sie nicht mehr benötigt werden.</string>
     <string name="EnterPasswordToContinue">Um fortzufahren, geben Sie das Passwort für %1$s ein:</string>
     <string name="IncorrectPassword">Falsches Passwort.</string>
-    <string name="ImportBackupAsk">Delta Chat hat unter <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> ein Backup gefunden.\n\nMöchten Sie das Backup importieren und alle Daten und Einstellungen aus diesem Backup verwenden?</string>
+    <string name="ImportBackupAsk">Delta Chat hat unter <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> ein Backup gefunden.\n\nMöchten Sie das Backup importieren und alle Daten und Einstellungen aus diesem Backup importieren?</string>
     <string name="ImportBackup">Backup importieren</string>
     <string name="NoBackupFound">Kein Backup gefunden.\n\nKopieren Sie das Backup nach <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> und versuchen Sie es erneut. Alternativ können Sie auf \"Jetzt beginnen\" klicken um einen normalen Einrichtungsvorgang zu starten.</string>
     <string name="FilesSuccessfullyExported">Dateien wurden erfolgreich nach <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> exportiert.</string>
@@ -452,6 +452,7 @@
     <string name="EditedNameWillBeShared">Der neue Name wird an alle Gruppenteilnehmern gesendet.</string>
     <string name="E2EEncryptionPreferred">Ende-zu-Ende-Verschlüsselung bevorzugt.</string>
     <string name="OobAddrVerified">%1$s verifiziert.</string>
+    <string name="OobGroupJoined">%1$s ist der Gruppe gesichert beigetreten</string>
     <string name="OobAddrVerifiedIntroduceMyself">%1$s verifiziert, warte auf Bestätigung …</string>
     <string name="OobAskJoinVerifiedGroup">Der verifizierten Gruppe <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> beitreten?</string>
     <!-- Translators: %1$s is replaced by an action, eg. MsgMemberAddedToGroup, MsgMemberRemovedFromToGroup, MsgGroupNameChanged or MsgGroupImageChanged. If the action ends with a full stop, this is removed.
@@ -478,4 +479,8 @@
     <string name="FetchModePersistentConnection">Dauerhafte Verbindung</string>
     <string name="FetchModeExplain">Wenn Sie den Modus <![CDATA[<i>]]>Batterie sparen<![CDATA[</i>]]> verwenden, kommen neue Nachrichten sofort an, während die App geöffnet ist und mit einer Verzögerung von ca 30 Sekunden, wenn die App nicht benutzt wird. Wenn das Gerät in den Schlafmodus umschaltet, kann die Verzögerung größer sein. Das ist die Standard-Einstellung.\n\n<![CDATA[<i>]]>Dauerhafte Verbindung<![CDATA[</i>]]> ist üblicherweise schneller, aber kann es erforden, dass die App in den Systemeinstellungen freigeschaltet werden muss um mehr Batterieverbrauch zu erlauben..\n\nWelchen Empfangsmodus möchten Sie verwenden?</string>
     <string name="PermissionCamera">Für die Aufnahme von Fotos oder das Scannen von QR Codes wird Zugriff auf die Kamera benötigt.</string>
-    </resources>
+    <!-- Translators: %1$s will be replaced by the email address -->
+    <string name="ErrCannotLogin">Anmelden als <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> fehlgeschlagen. Bitte überprüfe, ob die E-Mail Adresse und das Passwort korrekt sind.</string>
+    <!-- Translators: %1$s will be replaced by the server name (eg. imap.somewhere.org) and %2$s will be replaced by the human-readable response from the server. this response may be a single word or some sentences and may or may not be localized. -->
+    <string name="ErrSeverResponse">Antwort von %1$s: %2$s\n\nEinige Anbieter platzieren zusätzliche Informationen in ihrem Posteingang, die Sie z.B. im Web-Frontend abrufen können. Frage deinen Anbieter oder Freunde um Rat, wenn es Probleme gibt.</string>
+</resources>

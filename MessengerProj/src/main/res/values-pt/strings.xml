@@ -317,6 +317,7 @@
     <string name="ImapPort">Porta IMAP</string>
     <string name="InboxHeadline">Caixa de entrada</string>
     <string name="OutboxHeadline">Caixa de saída</string>
+    <string name="AdvancedOptions">Opções avançadas...</string>
     <string name="MyAccountExplain">Para provedores de e-mail mais populares as configurações a seguir são detectadas automaticamente.<![CDATA[<br/>]]><![CDATA[<br/>]]>Por vezes <![CDATA[<b>]]> é necessário habilitar o IMAP/SMTP<![CDATA[</b>]]> nas configurações do servidor de e-mail.\n\nSe tiver dificuldades peça ajuda aos administradores do servidor ou a algum amigo.</string>
     <string name="AccountNotConfigured">Conta não configurada</string>
     <string name="AboutThisProgram">Sobre Delta Chat</string>
@@ -377,6 +378,7 @@
     <string name="HelpUrl">https://delta.chat/pt/help</string>
     <string name="EncryptedMessage">Mensagem criptografada</string>
     <string name="Encryption">Criptografia</string>
+    <string name="EncrinfoE2EAvailable">Criptografia ponta a ponta habilitada.</string>
     <string name="EncrinfoTransport">Tráfego criptografado ao menos até o meu servidor.</string>
     <string name="EncrinfoNone">Sem encriptação para meu servidor.</string>
     <string name="EncrinfoFingerprints">Impressões</string>
@@ -430,11 +432,44 @@
     <string name="QrScanContainsUrl">O código QR escaneado contém a seguinte URL:
 
 %1$s</string>
+    <string name="OobFingerprint">Impressão</string>
+    <string name="OobFingerprintAskOob">Verificar o contato e começar a falar com <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <string name="OobFingerprintOk">Contato <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> verificado. Começar conversa?</string>
+    <string name="OobFingerprintMismatch">A impressão escaneada <![CDATA[<b>]]>não bate<![CDATA[</b>]]> com a última impressão vista para <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>.</string>
+    <string name="OobFingerprintWithoutAddr">Este código QR tem uma impressão, mas não tem e-mail.\n\nPara uma verificação \"out-of-band\" primeiro estabeleça uma conexão cifrada com o destinatário.</string>
     <string name="OobSecureJoinRequested">%1$s entrou.</string>
     <string name="Autocrypt">Autocrypt</string>
+    <string name="NewVerifiedGroup">Novo grupo verificado</string>
+    <string name="SharedChats">Conversas compartilhadas</string>
+    <string name="VerifiedContact">Contato verificado</string>
     <string name="Contact">Contato</string>
+    <string name="VerifiedGroup">Grupo verificado</string>
+    <string name="Group">Grupo</string>
+    <string name="EditedNameWillBeShared">O nome editado será compartilhado com todos os membros do grupo.</string>
+    <string name="E2EEncryptionPreferred">Criptografia ponta a ponta é a preferida.</string>
+    <string name="OobAddrVerified">%1$s verificado.</string>
+    <string name="OobGroupJoined">%1$s ingressou no grupo de modo seguro.</string>
+    <string name="OobAddrVerifiedIntroduceMyself">%1$s verificado, apresentar-me…</string>
+    <string name="OobAskJoinVerifiedGroup">Quer ingressar no grupo verificado <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <!-- Translators: %1$s is replaced by an action, eg. MsgMemberAddedToGroup, MsgMemberRemovedFromToGroup, MsgGroupNameChanged or MsgGroupImageChanged. If the action ends with a full stop, this is removed.
+    %2$s is replaced by a the name of the user that made this action.
+    Resulting strings might be "Member Alice added by Bob." or 'Group name changed from "Foo" to "Bar" by Claire.
+     If you do not find a correct grammar for your language you can just use "%1$s (by %2$s)" or "%2$s: %1$s" -->
+    <string name="ActionByUser">%1$s por %2$s.</string>
+    <!-- Translators: %1$s is replaced by an action, eg. MsgMemberAddedToGroup, MsgMemberRemovedFromToGroup, MsgGroupNameChanged or MsgGroupImageChanged. If the action ends with a full stop, this is removed.
+    Resulting strings might be "Member Alice added by me." or 'Group name changed from "Foo" to "Bar" by me.
+    If you do not find a correct grammar for your language you can just use "%1$s (by me)" or "Me: %1$s" -->
+    <string name="ActionBySelf">%1$s por mim.</string>
+    <string name="ExampleEmailAddr">usuário@exemplo.org</string>
+    <string name="QrScanHint">Aponte sua câmera para o código QR</string>
+
     <string name="QrShowVerifyCode">Mostrar código QR de verificação</string>
     <string name="QrVerifyContactTitle">Código QR de verificação</string>
+    <string name="QrVerifyContactHint"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\nEscanear para verificar o contato.</string>
+
+    <string name="QrShowInviteCode">Mostrar código QR de convite</string>
+    <string name="QrJoinVerifiedGroupTitle">Código QR de convite</string>
     <string name="FetchModeSaveBattery">Economizar bateria</string>
     <string name="FetchModePersistentConnection">Conexão persistente</string>
+    <string name="PermissionCamera">Acessar a câmera é necessário se você quiser tirar fotos ou escanear códigos QR.</string>
     </resources>

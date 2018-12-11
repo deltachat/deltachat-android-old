@@ -443,9 +443,9 @@
     <string name="LeaveGroup">Opuść grupę</string>
     <string name="AskLeaveGroup">Czy na pewno chcesz opuścić tą grupę?</string>
     <string name="Never">Nigdy</string>
-    <string name="AutocryptKeyTransferInitiate">Rozpocznij tranfer klucza automatycznego szyfrowania</string>
-    <string name="AutocryptKeyTransfer">Tranfer klucza automatycznego szyfrowania</string>
-    <string name="AutocryptKeyTransferMsgBeforeSend"><![CDATA[<i>]]>Tranfer klucza automatycznego szyfrowania<![CDATA[</i>]]> wymaga, aby klient poczty na drugim urządzeniu był zgodny z automatycznym szyfrowaniem.\n\nMożesz wysłać klucz do siebie. Klucz zostanie zaszyfrowany za pomocą wyświetlonego tutaj kodu konfiguracyjnego, który należy wpisać na drugim urządzeniu.</string>
+    <string name="AutocryptKeyTransferInitiate">Wyślij wiadomość konfiguracyjną automatycznego szyfrowania</string>
+    <string name="AutocryptKeyTransfer">Wiadomość konfiguracyjna automatycznego szyfrowania</string>
+    <string name="AutocryptKeyTransferMsgBeforeSend"><![CDATA[<i>]]>Wiadomość konfiguracyjna automatycznego szyfrowania<![CDATA[</i>]]> bezpiecznie udostępnia twoją konfigurację end-to-end innym aplikacjom zgodnym z Autocrypt. Klucz zostanie zaszyfrowany za pomocą wyświetlonego tutaj kodu konfiguracyjnego, który należy wpisać na drugim urządzeniu.</string>
     <string name="AutocryptKeyTransferMsgAfterSend">Klucz został wysłany do ciebie. Przejdź do innego urządzenia i otwórz wiadomość konfiguracyjną. Zostanie wyświetlona prośba o podanie kodu konfiguracyjnego. Wpisz następujące cyfry w podpowiedzi:\n\n%1$s\n\nGdy skończysz, drugie urządzenie będzie gotowe do użycia funkcji automatycznego szyfrowania.</string>
     <string name="AutocryptSetupMessageSubject">Wiadomość konfiguracyjna automatycznego szyfrowania</string>
     <string name="AutocryptSetupMessageGeneralBody">Jest to wiadomość konfiguracyjna automatycznego szyfrowania służąca do przesyłania klucza między klientami.\n\nAby odszyfrować i użyć klucza, otwórz wiadomość w kliencie zgodnym z automatycznym szyfrowaniem i wprowadź kod konfiguracyjny przedstawiony na urządzeniu generującym.</string>

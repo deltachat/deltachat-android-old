@@ -416,10 +416,10 @@
     <string name="LeaveGroup">Forlade gruppe</string>
     <string name="AskLeaveGroup">Forlade gruppe?</string>
     <string name="Never">Aldrig</string>
-    <string name="AutocryptKeyTransferInitiate">Sende Autocrypt opsætningsbesked</string>
+    <string name="AutocryptKeyTransferInitiate">Send Autocrypt opsætningsbesked</string>
     <string name="AutocryptKeyTransfer">Autocrypt opsætningsbesked</string>
-    <string name="AutocryptKeyTransferMsgBeforeSend">En <![CDATA[<i>]]>Autocrypt opsætningsbesked<![CDATA[</i>]]> sikkert dele ende-til-ende opsætning med andre Autocrypt kompatible programmer.\n\nOpsætningen er krypteret med en opsætningskode som vises her og skal indtastes på den anden enhed.</string>
-    <string name="AutocryptKeyTransferMsgAfterSend">Opsætning er sendt til undertegnede. Skift til den anden enhedog åben opstningsbekeden. Der vil blive forespurgt til en opsætningskode. Indtast følgende cifre i forespørgselen:\n\n%1$s\n\nNår dette er gjortvil den anden enhed være klar til Autocrypt.</string>
+    <string name="AutocryptKeyTransferMsgBeforeSend">En <![CDATA[<i>]]>Autocrypt opsætningsbesked<![CDATA[</i>]]> deler sikkert ende-til-ende opsætning med andre Autocrypt kompatible programmer.\n\nOpsætningen er krypteret med en opsætningskode som vises her og skal indtastes på den anden enhed.</string>
+    <string name="AutocryptKeyTransferMsgAfterSend">Opsætning er sendt til undertegnede. Skift til den anden enhed og åben opsætnings-beskeden. Der vil blive forespurgt til en opsætnings-kode. Indtast følgende cifre i forespørgselen:\n\n%1$s\n\nNår dette er gjort vil den anden enhed være klar til Autocrypt.</string>
     <string name="AutocryptSetupMessageSubject">Autocrypt opsætningsbesked</string>
     <string name="AutocryptSetupMessageGeneralBody">Dette er Autocrypt opsætningsbesked brugt til at overføre ende-til-ende opsætning mellem klienter.\n\nFor at dekryptere og bruge opsætning åben beskeden i en Autocrypt kompatibel klient og indtast opsætningskoden vist på kilde enheden.</string>
     <string name="AutocryptSetupMessageTapBody">Dette er en Autocrypt besked brugt til at overføre ende-til-ende opsætning mellem klienter.\n\nFor at dekryptere og bruge opsætning, tryk på denne besked.</string>

@@ -14,17 +14,25 @@
     <string name="Search">Претрага</string>
     <string name="MuteNotifications">Искључи обавештења</string>
     <string name="MuteFor">Искључи %1$s</string>
+    <string name="UnmuteNotifications">Укључи</string>
     <string name="Draft">Нацрт</string>
+    <!--audio view-->
+    <string name="NoAudio">Фајлови из ваше музичке библиотеке</string>
+    <string name="AttachMusic">Музика</string>
     <!--documents view-->
     <string name="SelectFile">Изабери фајл</string>
+    <string name="FreeOfTotal">%1$s од %2$s слободно</string>
     <string name="ErrorHint">Непозната грешка</string>
     <string name="AccessError">Грешка приступа</string>
     <string name="NoFiles">Још нема фајлова…</string>
     <string name="NotMounted">Складиште није монтирано</string>
+    <string name="UsbActive">УСБ пренос у току</string>
     <string name="InternalStorage">Унутрашње складиште</string>
     <string name="ExternalStorage">Спољашње складиште</string>
+    <string name="SystemRoot">Системски корен</string>
     <string name="SdCard">СД картица</string>
     <string name="Folder">Фасцикла</string>
+    <string name="GalleryInfo">За слање некомпресованих слика</string>
     <!--chat view-->
     <string name="ChatGallery">Галерија</string>
     <string name="ChatCamera">Камера</string>
@@ -38,8 +46,18 @@
     <string name="SaveToMusic">Сачувај у музику</string>
     <string name="Share">Дели</string>
     <string name="SendItems">Пошаљи %1$s</string>
+    <string name="ClearRecentEmoji">Да очистим недавне емоџије?</string>
+    <string name="AddShortcut">Додај виџет на почетни екран</string>
+    <string name="ShortcutAdded">Виџет додат на почетни екран</string>
     <!--notification-->
     <string name="Reply">Одговори</string>
+    <string name="ReplyToGroup">Одговори %1$s</string>
+    <string name="ReplyToContact">Одговори %1$s</string>
+    <!--contacts view-->
+    <string name="NoContacts">Још нема контаката.</string>
+    <!--group create view-->
+    <string name="SendMessageTo">Пошаљи поруку за…</string>
+    <string name="EnterGroupNamePlaceholder">Унесите назив групе</string>
     <!--group info view-->
     <string name="AddMember">Додај члана</string>
     <string name="Notifications">Обавештења</string>
@@ -48,8 +66,423 @@
     <string name="NewContactTitle">Нови контакт</string>
     <string name="BlockContact">Блокирај контакт</string>
     <string name="DeleteContact">Обриши контакт</string>
+    <string name="Info">Инфо</string>
+    <!--settings view-->
+    <string name="TextSize">Величина фонта за поруке</string>
+    <string name="UnblockContact">Деблокирај контакт</string>
+    <string name="NoBlocked">Још нема блокираних контаката</string>
+    <string name="DefaultForNormalMessages">Нормалне поруке</string>
+    <string name="MessagePreview">Преглед поруке</string>
+    <string name="DefaultForGroupMessages">Групне поруке</string>
+    <string name="Sound">Звук</string>
+    <string name="InAppNotifications">Унутрашња обавештења</string>
+    <string name="Vibrate">Вибрирање</string>
+    <string name="ResetAllNotifications">Ресетуј сва обавештења</string>
+    <string name="NotificationsAndSounds">Обавештења и звуци</string>
+    <string name="BlockedContacts">Блокирани контакти</string>
+    <string name="Default">Подразумевано</string>
+    <string name="OnlyIfSilent">Само кад је у тихом режиму</string>
+    <string name="ChatBackground">Позадина ћаскања</string>
+    <string name="SendByEnter">Шаљи ЕНТЕР тастером</string>
+    <string name="Help">Помоћ</string>
+    <string name="Enabled">Укљ</string>
+    <string name="Disabled">Иск</string>
+    <string name="LedColor">Боја ЛЕД светла</string>
+    <string name="BadgeNumber">Користи икону за приказ број ако је могуће</string>
+    <string name="Short">Кратко</string>
+    <string name="Long">Дуго</string>
+    <string name="RaiseToSpeak">Подигни да причаш</string>
+    <string name="EditName">Уреди назив</string>
+    <string name="NotificationsPriority">Прикажи</string>
+    <string name="NotificationsPriorityDefault">Нормални приоритет</string>
+    <string name="NotificationsPriorityHigh">Високи приоритет</string>
+    <string name="NotificationsPriorityMax">Највиши приоритет</string>
+    <string name="RepeatNotifications">Понављај обавештења</string>
+    <string name="NotificationsOther">Остало</string>
+    <string name="InChatSound">Звуци ћаскања</string>
+    <string name="SmartNotifications">Ограничи обавештења</string>
+    <string name="SmartNotificationsSoundAtMost">Макс.</string>
+    <string name="SmartNotificationsTimes">пута</string>
+    <string name="SmartNotificationsWithin">у току</string>
+    <string name="SmartNotificationsMinutes">минута</string>
+    <string name="DirectShare">Директно дељење</string>
+    <string name="DirectShareInfo">Прикажи недавна ћаскања у менију дељења</string>
+    <!--cache view-->
+    <string name="CacheSettings">Складиште</string>
+    <string name="KeepMedia">Чувај медије</string>
+    <string name="KeepMediaInfo">Слике, видео и остали фајлови са облак-ћаскања којима <![CDATA[<b>нисте приступили</b>]]> у овом периоду ће бити уклоњени са уређаја да се сачува простор.</string>
+    <string name="KeepMediaForever">Заувек</string>
+    <!--passcode view-->
+    <string name="Passcode">Лозинка закључавања</string>
+    <string name="ChangePasscode">Измени лозинку</string>
+    <string name="ChangePasscodeInfo">Ако поставите додатну лозинку, икона браве ће се појавити листе ћаскања. Тапните је да закључате апликацију.\n\nНапомена: Ако заборавите лозинку мораћете да обришете и поново инсталирате апликацију.</string>
+    <string name="PasscodePIN">ПИН</string>
+    <string name="PasscodePassword">Лозинка</string>
+    <string name="EnterCurrentPasscode">Унесите текућу лозинку</string>
+    <string name="EnterNewFirstPasscode">Унесите лозинку</string>
+    <string name="EnterNewPasscode">Унесите нову лозинку</string>
+    <string name="EnterYourPasscode">Унесите лозинку</string>
+    <string name="ReEnterYourPasscode">Поново унесите лозинку</string>
+    <string name="PasscodeDoNotMatch">Лозинке се не поклапају</string>
+    <string name="AutoLock">Аутоматско закључавање</string>
+    <string name="AutoLockInfo">Захтевај лозинку при одсутности на дуже време.</string>
+    <string name="UnlockFingerprint">Откључај отиском прста</string>
+    <string name="FingerprintInfo">Потврдите отисак прста да бисте наставили</string>
+    <string name="FingerprintNotRecognized">Отисак прста није препознат. Покушајте поново.</string>
+    <!--photo gallery view-->
+    <string name="SaveToGallery">Сачувај у галерију</string>
+    <string name="Of">%1$d од %2$d</string>
     <string name="Gallery">Галерија</string>
+    <string name="AllPhotos">Све слике</string>
+    <string name="AllVideo">Сви видеи</string>
+    <string name="NoPhotos">Још нема слика</string>
+    <string name="NoVideo">Још нема видеа</string>
+    <string name="CropImage">Опсеци слику</string>
+    <string name="EditImage">Уреди слику</string>
+    <string name="Enhance">Побољшај</string>
+    <string name="Contrast">Контраст</string>
+    <string name="Exposure">Експозиција</string>
+    <string name="Warmth">Топлина</string>
+    <string name="Saturation">Засићење</string>
+    <string name="Vignette">Вињета</string>
+    <string name="Shadows">Сенке</string>
+    <string name="Grain">Зрнасто</string>
+    <string name="Sharpen">Изоштравање</string>
+    <string name="Fade">Утапање</string>
+    <string name="Tint">Нијанса</string>
+    <string name="TintShadows">Сенке</string>
+    <string name="CurvesAll">Све</string>
+    <string name="CurvesRed">Црвена</string>
+    <string name="CurvesGreen">Зелена</string>
+    <string name="CurvesBlue">Плава</string>
+    <string name="Blur">Замућење</string>
+    <string name="BlurOff">Иск</string>
+    <string name="BlurLinear">Линеарно</string>
+    <string name="BlurRadial">Радијално</string>
+    <string name="DiscardChanges">Одбацити измене?</string>
+    <string name="ClearButton">Очисти</string>
+    <string name="PickerPhotos">Слике</string>
+    <string name="PickerVideo">Видео</string>
+    <!--privacy settings-->
+    <string name="PrivacySettings">Приватност и безбедност</string>
+    <string name="SecurityTitle">Безбедност</string>
+    <!--edit video view-->
+    <string name="SendVideo">Пошаљи видео</string>
+    <!--button titles-->
+    <string name="Done">Завршено</string>
+    <string name="Open">Отвори</string>
+    <string name="Cancel">Одустани</string>
+    <string name="Edit">Уреди</string>
+    <string name="Send">Пошаљи</string>
+    <string name="CopyToClipboard">Копирај у клипборд</string>
+    <string name="Delete">Обриши</string>
+    <string name="Forward">Проследи</string>
+    <string name="FromCamera">Са камере</string>
+    <string name="FromGalley">Из галерије</string>
+    <string name="Set">Постави</string>
+    <string name="OK">У реду</string>
+    <string name="Crop">Опсеци</string>
+    <!--messages-->
+    <string name="AttachPhoto">Слика</string>
+    <string name="AttachVideo">Видео</string>
+    <string name="AttachGif">ГИФ</string>
+    <string name="AttachContact">Контакт</string>
+    <string name="AttachDocument">Фајл</string>
+    <string name="AttachVoiceMessage">Гласовна порука</string>
+    <string name="FromSelf">Ја</string>
+    <!--Alert messages-->
+    <string name="NoHandleAppInstalled">Да бисте наставили инсталирајте апликацију која може да рукује „%1$s“ фајловима.</string>
+    <string name="ContactAlreadyInGroup">Контакт је већ у овој групи.</string>
+    <string name="ForwardMessagesTo">Да проследим изабране поруке за <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <string name="SendMessagesTo">Да пошаљем изабране поруке за <![CDATA[]]>%1$s<![CDATA[]]>?</string>
+    <string name="AreYouSureDeleteThisChat">Да обришем ово ћаскање? Више неће бити приказано на листи ћаскања, поруке ће остати на серверу.</string>
+    <string name="AreYouSureBlockContact">Желите ли заиста да блокирате овај контакт?</string>
+    <string name="AreYouSureDeleteContact">Желите ли заиста да обришете овај контакт?</string>
+    <!--permissions-->
+    <string name="PermissionContacts">Одобрите приступ контактима ако желите да синхронизујете пријатеље на свим вашим уређајима.</string>
+    <string name="PermissionStorage">Одобрите приступ складишту ако желите да шаљете и чувате слике, видео, музику и остале медије.</string>
+    <string name="PermissionNoAudio">Одобрите приступ микрофону за снимање гласовних порука.</string>
     <string name="PermissionOpenSettings">Поставке</string>
     <!--Intro view-->
     <string name="Intro1Headline">Делта ћаскање</string>
-    </resources>
+    <string name="Intro1Message">Брзи гласник са <![CDATA[<b>најширом публиком</b>]]> на свету. <![CDATA[<b>Слободан</b>]]> и <![CDATA[<b>независан</b>]]>.</string>
+
+    <string name="Intro2Headline">Независно</string>
+    <string name="Intro2Message"><![CDATA[<b>Не постоји сервер Делта ћаскања.</b>]]> Апликација користи само сервер ваше е-поште.</string>
+
+    <string name="Intro3Headline">Брзо</string>
+    <string name="Intro3Message"><![CDATA[<b>Слање порука</b>]]> у тренутку.<![CDATA[<br/>]]>Брзо сучеље.</string>
+
+    <string name="Intro4Headline">Моћно</string>
+    <string name="Intro4Message"><![CDATA[<b>Неограничена</b>]]> ћаскања, слике, видео, гласовне поруке и више. Мулти-клијент способност.</string>
+
+    <string name="Intro5Headline">Слободно</string>
+    <string name="Intro5Message"><![CDATA[<b>Делта ћаскање</b>]]> је бесплатно и слободно заувек.<![CDATA[<br/>]]>Отвореног кôда. Нема реклама. Нема претплате. Нема закључавања од стране компанија.</string>
+
+    <string name="Intro6Headline">Шифровано</string>
+    <string name="Intro6Message"><![CDATA[<b>Шифровање</b>]]> уобичајеним алгоритмима. Поруке остају на вашим серверима.</string>
+
+    <string name="Intro7Headline">Поуздано</string>
+
+    <string name="IntroStartMessaging">Почните ћаскање</string>
+    <!--plural-->
+    <plurals name="Members">
+        <item quantity="one">%d члан</item>
+        <item quantity="few">%d члана</item>
+        <item quantity="other">%d чланова</item>
+    </plurals>
+    <plurals name="Contacts">
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакта</item>
+        <item quantity="other">%d контаката</item>
+    </plurals>
+    <plurals name="MeAndMembers">
+        <item quantity="one">%d члан и ја</item>
+        <item quantity="few">%d члана и ја</item>
+        <item quantity="other">%d чланова и ја</item>
+    </plurals>
+    <plurals name="NewMessages">
+        <item quantity="one">%d нова порука</item>
+        <item quantity="few">%d нове поруке</item>
+        <item quantity="other">%d нових порука</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="one">%d порука</item>
+        <item quantity="few">%d поруке</item>
+        <item quantity="other">%d порука</item>
+    </plurals>
+    <plurals name="AreYouSureDeleteMessages">
+        <item quantity="one">Обриши %d поруку овде и са сервера.</item>
+        <item quantity="few">Обриши %d поруке овде и са сервера.</item>
+        <item quantity="other">Обриши %d порука овде и са сервера.</item>
+    </plurals>
+    <!-- Translators: The first string placeholder gets replaced with the
+    text "%d new messages", so the complete sentence would be e.g.
+    "4 new messages in 2 chats". -->
+    <plurals name="NewMessagesInChats">
+        <item quantity="one">%1$s у %2$d ћаскању</item>
+        <item quantity="few">%1$s у %2$d ћаскања</item>
+        <item quantity="other">%1$s у %2$d ћаскања</item>
+    </plurals>
+    <plurals name="Chats">
+        <item quantity="one">%d ћаскање</item>
+        <item quantity="few">%d ћаскања</item>
+        <item quantity="other">%d ћаскања</item>
+    </plurals>
+    <plurals name="Minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуте</item>
+        <item quantity="other">%d минута</item>
+    </plurals>
+    <plurals name="Hours">
+        <item quantity="one">%d сат</item>
+        <item quantity="few">%d сата</item>
+        <item quantity="other">%d сати</item>
+    </plurals>
+    <plurals name="Days">
+        <item quantity="one">%d дан</item>
+        <item quantity="few">%d дан</item>
+        <item quantity="other">%d дан</item>
+    </plurals>
+    <plurals name="Weeks">
+        <item quantity="one">%d седмица</item>
+        <item quantity="few">%d седмице</item>
+        <item quantity="other">%d седмица</item>
+    </plurals>
+    <plurals name="Months">
+        <item quantity="one">%d месец</item>
+        <item quantity="few">%d месеца</item>
+        <item quantity="other">%d месеци</item>
+    </plurals>
+    <!-- Translators: The second string placeholder gets replaced with the
+    text "%d minutes", so the complete sentence would be e.g.
+    "At most 8 notifications within 3 minutes". -->
+    <plurals name="MaxNotifications">
+        <item quantity="one">Највише %1$d обавештење у току %2$s</item>
+        <item quantity="few">Највише %1$d обавештења у току %2$s</item>
+        <item quantity="other">Највише %1$d обавештења у току %2$s</item>
+    </plurals>
+    <!--date formatters-->
+    <string name="formatterMonthYear">MMMM yyyy</string>
+    <string name="formatterMonth">MMM dd</string>
+    <string name="formatterYear">dd.MM.yyyy</string>
+    <string name="chatDate">EEE, MMMM d</string>
+    <string name="chatFullDate">EEE, MMMM d, yyyy</string>
+    <string name="formatterWeek">EEE</string>
+    <string name="formatterDay24H">HH:mm</string>
+    <string name="formatterDay12H">h:mm a</string>
+    <string name="formatDateAtTime">%1$s у %2$s</string>
+    <string name="AccountSettings">Поставке налога</string>
+    <string name="MyAccount">Мој налог</string>
+    <string name="MyName">Моје име</string>
+    <string name="MyNameExplain">Ваше име, како је приказано примаоцима. Ако га оставите празним, само ће ваша е-адреса бити послата.</string>
+    <string name="Password">Лозинка</string>
+    <string name="SmtpPassword">Лозинка за СМТП</string>
+    <string name="FromAbove">Лозинка изнад</string>
+    <string name="SmtpLoginname">Корисничко име за СМТП</string>
+    <string name="SmtpPort">СМТП порт</string>
+    <string name="Automatic">Аутоматски</string>
+    <string name="ImapServer">ИМАП сервер</string>
+    <string name="ImapLoginname">Корисничко име за ИМАП</string>
+    <string name="SmtpServer">СМТП сервер</string>
+    <string name="ImapPort">ИМАП порт</string>
+    <string name="InboxHeadline">Пријем</string>
+    <string name="OutboxHeadline">Отпрем</string>
+    <string name="AdvancedOptions">Напредне опције...</string>
+    <string name="MyAccountExplain">За познате пружаоце услуге е-поште, додатне поставке се одређују аутоматски.
+        <![CDATA[<br/>]]>
+        <![CDATA[<br/>]]>
+        Каткад, <![CDATA[<b>]]>морате омогућити ИМАП<![CDATA[</b>]]> у поставкама на веб сучељу ваше е-поште.\n\nПосаветујте се са пружаоцем услуге е-поште или пријатељима ако наиђете на проблеме.</string>
+    <string name="MyAccountExplainGmail">За <![CDATA[<b>]]>GMail<![CDATA[</b>]]> налоге требате направити
+        <![CDATA[<a href=\"https://security.google.com/settings/security/apppasswords\">]]>лозинку за апликације<![CDATA[</a>]]> ако сте укључили 2FA.
+        <![CDATA[<br/>]]>Ако ова поставка није доступна, требате омогућити <![CDATA[<a href=\"https://myaccount.google.com/lesssecureapps\">]]>Less Secure Apps<![CDATA[</a>]]> опцију
+    </string>
+    <string name="AccountNotConfigured">Налог није постављен</string>
+    <string name="AboutThisProgram">О Делта ћаскању</string>
+    <string name="NotSet">Није постављено</string>
+    <string name="NewChat">Ново ћаскање</string>
+    <string name="Deaddrop">Захтеви за контакт</string>
+    <string name="DeaddropInChatlist">Приказ захтева за контакт у листи ћаскања</string>
+    <string name="MuteAlways">Увек утишан</string>
+    <string name="AskStartChatWith">Ћаскати са <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <string name="DeaddropHint">Тапните на стрелице за одговор да почнете ћаскање.</string>
+    <string name="NotYetImplemented">Ова функционалност је недовршена или није доступна.</string>
+    <!-- Translators: The URL should not be localized, it is not clear which languuage the receiver prefers and the language will be detected on the server -->
+    <string name="DefaultStatusText">Послато Делта ћаскањем: https://delta.chat</string>
+    <string name="Name" >Име</string>
+    <string name="EmailAddress">Е-адреса</string>
+    <string name="CannotDeleteContact">Не могу да обришем контакте у употреби, уместо тога блокирајте контакт.</string>
+    <string name="BadEmailAddress">Погрешна е-адреса.</string>
+    <string name="ContactCreated">Контакт је направљен.</string>
+    <string name="ViewProfile">Прикажи профил</string>
+    <!-- Translators: please use a very short string here, it should not much longer than
+    the string needed for video time+size (0:00, 12,3 Mib) -->
+    <string name="OneMoment">Тренутак…</string>
+    <string name="NoChatsHelp">Почните ћаскање тапом на „Ново ћаскање“ доле десно или тапните на „Мени“ за више опција.</string>
+    <string name="Intro7Message"><![CDATA[<b>Делта ћаскање</b>]]> је безбедно за посао, компатибилно и засновано на стандардима.</string>
+    <string name="InviteMenuEntry">Пошаљи позивнице</string>
+    <string name="InviteText">Користим Делта ћаскање - %1$s - пиши ми на %2$s</string>
+    <string name="AdvancedSettings">Напредно</string>
+    <string name="AskResetNotifications">Да ресетујем све поставке обавештења и звукове текуће странице, контаката и група?</string>
+    <string name="AttachFiles">Приложи фајлове</string>
+    <string name="ErrGroupNameEmpty">Унесите назив групе</string>
+    <string name="MsgNewGroupDraftHint">Саставите прву поруку и тиме омогућите осталима да пишу у групи.\n\n• У реду је ако сви чланови не користе Делта ћаскање.\n\n• Испорука прве поруке ће можда да потраје.</string>
+    <string name="MsgNewGroupDraft">Здраво, управо направих групу „%1$s“ за нас.</string>
+    <string name="MsgGroupNameChanged">Назив групе је измењен из „%1$s“ у „%2$s“.</string>
+    <string name="MsgGroupImageChanged">Слика групе је промењена.</string>
+    <string name="MsgMemberAddedToGroup">Члан %1$s је додат.</string>
+    <string name="MsgMemberRemovedFromToGroup">Члан %1$s је уклоњен.</string>
+    <string name="AskAddMemberToGroup">Додати <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> у групу?</string>
+    <string name="AskRemoveMemberFromGroup">Уклонити <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> из групе?</string>
+    <string name="ErrSelfNotInGroup">Морате бити члан групе да бисте извршили ову радњу.</string>
+    <string name="MsgGroupLeft">Група напуштена.</string>
+    <string name="NoMessagesHint">Пошаљи поруку за <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>:\n\n• У реду је ако <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> не користи Делта ћаскање.\n\n• Испорука прве поруке ће можда да потраје.</string>
+    <string name="SendNRcvReadReceipts">Примај и шаљи поруке читања</string>
+    <string name="PreferE2EEncryption">Преферирај с-краја-на-крај шифровање</string>
+    <string name="E2EManagePrivateKeys">Управљај кључевима</string>
+    <string name="E2ECompareKeys">Упореди кључеве</string>
+    <string name="ForwardToTitle">Проследи за…</string>
+    <string name="SelectContact">Изаберите контакт</string>
+    <string name="DoneHint">Завршено.</string>
+    <string name="FileNotFound">Не могу да нађем %1$s.</string>
+    <string name="Error">Грешка: %1$s</string>
+    <string name="NoNetwork">Мрежа није доступна.</string>
+    <string name="Audio">Звук</string>
+    <string name="PleaseCutVideoToMaxSize">Смањите величину видеа на мање од %1$s.</string>
+    <string name="PermNotificationTitle">Повезан са %1$s</string>
+    <string name="PermNotificationText">Чекам на поруке…</string>
+    <string name="SettingsFor">Поставке за %1$s</string>
+    <string name="AutoplayGifs">Ауто-пуштај анимиране сличице</string>
+    <string name="EncryptedMessage">Шифрована порука</string>
+    <string name="Encryption">Шифровање</string>
+    <string name="EncrinfoE2EAvailable">С-краја-на-крај шифровање је доступно.</string>
+    <string name="EncrinfoTransport">Шифровање преноса бар до мог сервера.</string>
+    <string name="EncrinfoNone">Нема шифровања до мог сервера.</string>
+    <string name="EncrinfoFingerprints">Отисци</string>
+    <string name="Backup">Резервна копија</string>
+    <string name="ImportBackupExplain2">Да бисте увезли резервну копију, копирајте је у <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> и поново инсталирајте апликацију.</string>
+    <string name="ReadReceiptMailBody">Ово је потврда читања за поруку „%1$s“.\n\nЗначи да је порука приказана на уређају примаоца, не мора да значи да је и прочитана.</string>
+    <string name="ReadReceipt">Потврда читања</string>
+    <string name="NameAndStatus">Име и стање</string>
+    <string name="MyStatus">Моје стање</string>
+    <string name="MyStatusExplain">Стање је приказано у подножју е-поруке, између осталог.</string>
+    <string name="MsgGroupImageDeleted">Слика групе је обрисана.</string>
+    <string name="AskDeleteGroupImage">Желите ли заиста да обришете слику групе?\n\nОво ће утицати на све уређаје свих чланова групе.</string>
+    <string name="ExportImportHeader">Извоз и увоз</string>
+    <string name="ImportExportExplain">Извезени фајлови ће садржати ваше поставке за с-краја-на-крај аутошифровање! Чувајте их на безбедном месту или их обришите што је пре могуће.</string>
+    <string name="EnterPasswordToContinue">Унесите лозинку за %1$s да наставите:</string>
+    <string name="IncorrectPassword">Нетачна лозинка.</string>
+    <string name="ImportBackupAsk">Резервна копија нађена у <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>.\n\nЖелите ли да увезете и користите све њене податке и поставке?</string>
+    <string name="ImportBackup">Увези резервну копију</string>
+    <string name="NoBackupFound">Нема резервних копија.\n\nКопирајте резервну копију у <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> и покушајте поново. Ако не желите, тапните \"Почни ћаскање\" да бисте почели уобичајени процес поставке.</string>
+    <string name="FilesSuccessfullyExported">Фајлови извезени у <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>.</string>
+    <string name="ExportBackup">Извези резервну копију</string>
+    <string name="ExportPrivateKeys">Извези тајне кључеве</string>
+    <string name="ImportPrivateKeys">Увези тајне кључеве</string>
+    <string name="ImportPrivateKeysAsk2">Да увезем тајне кључеве из <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>?\n\n• Постојећи тајни кључеви неће бити обрисани\n\n• Последње увезени кључ ће бити коришћен као нови подразумевани кључ</string>
+    <string name="NoRecentEmoji">Недавно коришћени емоџији ће бити приказани овде.</string>
+    <string name="NotNow">Не сада</string>
+    <string name="ArchiveChat">Архивирај ћаскање</string>
+    <string name="UnarchiveChat">Деархивирај ћаскање</string>
+    <string name="ArchivedChats">Архивирана ћаскања</string>
+    <string name="Archived">Архивирано</string>
+    <string name="LeaveGroup">Напусти групу</string>
+    <string name="AskLeaveGroup">Желите ли заиста да напустите ову групу?</string>
+    <string name="Never">Никад</string>
+    <string name="AutocryptKeyTransferInitiate">Пошаљите поруку поставки за аутошифровање</string>
+    <string name="AutocryptKeyTransfer">Порука поставки за аутошфровање</string>
+    <string name="AutocryptSetupMessageSubject">Порука поставки за аутошфровање</string>
+    <string name="Retry">Покушај поново</string>
+    <string name="SelfTalkSubtitle">Поруке које сам слао себи</string>
+    <string name="QrScan">Очитај бар-кôд</string>
+    <string name="QrShow">Прикажи бар-кôд</string>
+    <string name="QrScanContainsText">Очитани текст бар-кôда:\n\n%1$s</string>
+    <string name="QrScanContainsUrl">Очитани УРЛ бар-кôда:\n\n%1$s</string>
+    <string name="OobFingerprint">Отисак</string>
+    <string name="OobFingerprintAskOob">Да потврдим контакт и почнем ћаскање са <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <string name="OobFingerprintOk">Контакт <![CDATA[<i>]]>%1$s<![CDATA[</i>]]> је потврђен. Почети ћаскање?</string>
+    <string name="OobFingerprintMismatch">Очитани отисак <![CDATA[<b>]]>не одговара<![CDATA[</b>]]> последње виђеном отиску за <![CDATA[<i>]]>%1$s<![CDATA[</i>]]>.</string>
+    <string name="OobFingerprintWithoutAddr">Овај бар-кôд садржи отисак али нема е-адресу.\n\nЗа потврду преко других канала, најпре установите шифровану везу са примаоцем.</string>
+    <string name="OobSecureJoinRequested">%1$s се придружи.</string>
+    <string name="Autocrypt">Аутошифровање</string>
+    <string name="AutocryptExplain"><![CDATA[<i>]]>Аутошифровање<![CDATA[</i>]]> је нова и отворена спецификација за аутоматско с-краја-на-крај шифровање е-поште.\n\nПостаке се стварају аутоматски по потреби и можете да их преносите између уређаја помоћу <![CDATA[<i>]]>Порука поставки за аутошифровање.<![CDATA[</i>]]></string>
+    <string name="NewVerifiedGroup">Нова потврђена група</string>
+    <string name="SharedChats">Дељена ћаскања</string>
+    <string name="VerifiedContact">Потврђен контакт</string>
+    <string name="Contact">Контакт</string>
+    <string name="VerifiedGroup">Потврђена група</string>
+    <string name="Group">Група</string>
+    <string name="EditedNameWillBeShared">Уређени назив ће бити подељен са свим члановима групе.</string>
+    <string name="E2EEncryptionPreferred">С-краја-на-крај шифровање је пожељно.</string>
+    <string name="OobAddrVerified">%1$s потврђен.</string>
+    <string name="OobGroupJoined">%1$s се безбедно придружи групи.</string>
+    <string name="OobAddrVerifiedIntroduceMyself">%1$s потврђен, представљам се…</string>
+    <string name="OobAskJoinVerifiedGroup">Желите ли да се придружите потврђеној групи <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?</string>
+    <!-- Translators: %1$s is replaced by an action, eg. MsgMemberAddedToGroup, MsgMemberRemovedFromToGroup, MsgGroupNameChanged or MsgGroupImageChanged. If the action ends with a full stop, this is removed.
+    %2$s is replaced by a the name of the user that made this action.
+    Resulting strings might be "Member Alice added by Bob." or 'Group name changed from "Foo" to "Bar" by Claire.
+     If you do not find a correct grammar for your language you can just use "%1$s (by %2$s)" or "%2$s: %1$s" -->
+    <string name="ActionByUser">%1$s од стране %2$s.</string>
+    <!-- Translators: %1$s is replaced by an action, eg. MsgMemberAddedToGroup, MsgMemberRemovedFromToGroup, MsgGroupNameChanged or MsgGroupImageChanged. If the action ends with a full stop, this is removed.
+    Resulting strings might be "Member Alice added by me." or 'Group name changed from "Foo" to "Bar" by me.
+    If you do not find a correct grammar for your language you can just use "%1$s (by me)" or "Me: %1$s" -->
+    <string name="ActionBySelf">%1$s од мене.</string>
+    <string name="ExampleEmailAddr">korisnik@naprimer.org</string>
+    <string name="QrScanHint">Поставите камеру изнад бар-кôда</string>
+
+    <string name="QrShowVerifyCode">Прикажи бар-кôд за потврду</string>
+    <string name="QrVerifyContactTitle">Бар-кôд за потврду</string>
+    <string name="QrVerifyContactHint"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\nОчитајте ово да бисте потврдили контакт.</string>
+
+    <string name="QrShowInviteCode">Прикажи бар-кôд за позивницу</string>
+    <string name="QrJoinVerifiedGroupTitle">Бар-кôд за позивницу</string>
+    <string name="QrJoinVerifiedGroupHint">Очитајте ово да бисте се придружили потврђеној групи <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+    <string name="FetchMode">Режим добављања</string>
+    <string name="FetchModeSaveBattery">Штедња батерије</string>
+    <string name="FetchModePersistentConnection">Трајна веза</string>
+    <string name="PermissionCamera">Приступ камери је потребан ако желите да фотографишете или да очитавате бар-кôдове.</string>
+    <!-- Translators: %1$s will be replaced by the email address -->
+    <string name="ErrCannotLogin">Не могу да се пријавим као <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. Проверите да ли су е-адреса и лозинка тачни.</string>
+    <!-- Translators: %1$s will be replaced by the server name (eg. imap.somewhere.org) and %2$s will be replaced by the human-readable response from the server. this response may be a single word or some sentences and may or may not be localized. -->
+    <string name="ErrSeverResponse">Одговор од %1$s: %2$s\n\nНеки пружаоци услуга остављају додатне информације у ваше пријемно сандуче; можете да проверите ово нпр. користећи веб сучеље ваше е-поште. Посаветујте се са пружаоцем услуге или пријатељима ако налетите на проблеме.</string>
+</resources>

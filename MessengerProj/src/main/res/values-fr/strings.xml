@@ -198,7 +198,7 @@
     <string name="ContactAlreadyInGroup">Ce contact est déjà dans ce groupe</string>
     <string name="ForwardMessagesTo">Renvoyer les messages sélectionnés à <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ?</string>
     <string name="SendMessagesTo">Envoyer les messages à <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ?</string>
-    <string name="AreYouSureDeleteThisChat">Supprimer cette conversation? La conversation n\'apparaîtra plus dans la liste des conversations, mais les messages resteront sur le serveur.</string>
+    <string name="AreYouSureDeleteThisChat">Supprimer cette conversation? Celle-ci n\'apparaîtra plus dans la liste, mais les messages resteront sur le serveur.</string>
     <string name="AreYouSureBlockContact">Êtes-vous sûr de vouloir bloquer ce contact?</string>
     <string name="AreYouSureDeleteContact">Êtes-vous sûr de vouloir supprimer ce contact?</string>
     <!--permissions-->
@@ -304,7 +304,7 @@
     <string name="AccountSettings">Paramètres du compte</string>
     <string name="MyAccount">Mon compte</string>
     <string name="MyName">Mon nom</string>
-    <string name="MyNameExplain">Votre nom présenté aux destinataires. Si vous ne renseignez aucun nom ici, les destinataires verront uniquement votre adresse e-mail.</string>
+    <string name="MyNameExplain">Votre nom affiché aux destinataires. Si laissé vide, seule votre adresse e-mail sera visible.</string>
     <string name="Password">Mot de passe</string>
     <string name="SmtpPassword">Mot de passe SMTP</string>
     <string name="FromAbove">Le même qu\'au-dessus</string>
@@ -359,7 +359,7 @@
     <string name="MsgGroupLeft">Groupe quitté.</string>
     <string name="NoMessagesHint">Envoyez un message à <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> :\n\n• Ça ne devrait pas poser de problème si <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> n\'utilise pas Delta Chat\n\n• L\'envoi du premier message peut prendre un moment.</string>
     <string name="SendNRcvReadReceipts">Recevoir et envoyer des accusés de lecture.</string>
-    <string name="PreferE2EEncryption">Préférer le chiffrement de bout-en-bout.</string>
+    <string name="PreferE2EEncryption">Préférez le chiffrement de bout-en-bout.</string>
     <string name="E2EManagePrivateKeys">Gérer les clés privées</string>
     <string name="E2ECompareKeys">Comparer les clés</string>
     <string name="ForwardToTitle">Renvoyer à…</string>
@@ -377,6 +377,7 @@
     <string name="HelpUrl">https://delta.chat/fr/help</string>
     <string name="EncryptedMessage">Message chiffré</string>
     <string name="Encryption">Chiffrement</string>
+    <string name="EncrinfoE2EAvailable">Chiffrement de bout en bout disponible.</string>
     <string name="EncrinfoTransport">Le chiffrement est active au moins jusqu\'à mon serveur</string>
     <string name="EncrinfoNone">Aucun chiffrement sur mon serveur.</string>
     <string name="EncrinfoFingerprints">Clés de chiffrement</string>
@@ -442,4 +443,14 @@ La dernière clé importée sera utilisée comme nouvelle clé par défaut</stri
     <string name="VerifiedGroup">Groupe vérifié</string>
     <string name="Group">Groupe</string>
     <string name="EditedNameWillBeShared">Le nom modifié sera partagé avec tous les membres du groupe.</string>
+    <string name="E2EEncryptionPreferred">Préférez le chiffrement de bout-en-bout.</string>
+    <string name="OobAddrVerified">1%1$s vérifié.</string>
+    <string name="QrScanHint">Placez l\'objectif au-dessus du code QR.</string>
+
+    <string name="QrShowVerifyCode">Afficher le code QR de validation.</string>
+    <string name="QrVerifyContactTitle">Code QR de validation.</string>
+    <string name="QrShowInviteCode">Afficher le code QR d\'invitation</string>
+    <string name="QrJoinVerifiedGroupTitle">Code QR d\'invitation</string>
+    <string name="FetchModePersistentConnection">Connexion persistante</string>
+    <string name="PermissionCamera">L\'accès à la caméra est nécessaire pour prendre des photos ou scanner des codes QR.</string>
     </resources>

@@ -345,6 +345,7 @@
     <string name="ImapPort">IMAP порт</string>
     <string name="InboxHeadline">Скринька для вхідних</string>
     <string name="OutboxHeadline">Скринька для вихідних</string>
+    <string name="AdvancedOptions">Просунуті налаштування...</string>
     <string name="MyAccountExplain">Для відомих email-поставників, додаткові налаштування обираються автоматично.<![CDATA[<br/>]]><![CDATA[<br/>]]>Інколи, <![CDATA[<b>]]>IMAP має бути ввімкненим<![CDATA[</b>]]> у верстці email.\n\nУ разі виникнення проблем, спитайте поради у вашого email-поставника або друзів.</string>
     <string name="AccountNotConfigured">Обліківка не налаштована</string>
     <string name="AboutThisProgram">Про оповісник</string>
@@ -405,6 +406,7 @@
     <string name="HelpUrl">https://delta.chat/en/help</string>
     <string name="EncryptedMessage">Зашифроване повідомлення</string>
     <string name="Encryption">Шифрування</string>
+    <string name="EncrinfoE2EAvailable">Шифрування end-to-end є доступним.</string>
     <string name="EncrinfoTransport">Супроводжувати шифрування даних принаймні до мого серверу.</string>
     <string name="EncrinfoNone">Без шифрування на моєму сервері.</string>
     <string name="EncrinfoFingerprints">Відбитки пальців</string>
@@ -443,10 +445,16 @@
     <string name="QrScan">Відсканувати QR-код</string>
     <string name="QrShow">Показати QR-код</string>
     <string name="OobFingerprint">Відбиток пальця</string>
+    <string name="OobSecureJoinRequested">%1$s приєднується.</string>
+    <string name="NewVerifiedGroup">Нова підтверджена спільнота</string>
+    <string name="SharedChats">Поширені розмови</string>
+    <string name="VerifiedContact">Затверджений контакт</string>
     <string name="Contact">Контакт</string>
+    <string name="VerifiedGroup">Підтверджена спільнота</string>
     <string name="Group">Спільнота</string>
     <string name="EditedNameWillBeShared">Кориговане ім\'я пошириться серед усіх членів спільноти.</string>
     <string name="OobAddrVerified">%1$sпідтверджено.</string>
     <string name="OobAddrVerifiedIntroduceMyself">%1$sпідтверджено, привітайтеся ...</string>
+    <string name="ExampleEmailAddr">user@example.org</string>
     <string name="QrShowInviteCode">Показати QR-код запрошення</string>
     </resources>
